@@ -58,9 +58,12 @@ def wait_until_ready(base_url: str, timeout_seconds: int = 300, interval: int = 
 
 
 def server_version(base_url: str) -> dict:
-    status, body = _request(f"{base_url.rstrip('/')}/metadata", timeout=30)
+    try:
+        status, body = _request(f"{base_url.rstrip('/')}/metadata", timeout=30)
+    except OSError as exc:  # connection refused, DNS failure, timeout
+        return {"reachable": False, "error": str(exc)[:200]}
     if status != 200:
-        return {"reachable": False}
+        return {"reachable": False, "status": status}
     return {
         "reachable": True,
         "fhirVersion": body.get("fhirVersion"),

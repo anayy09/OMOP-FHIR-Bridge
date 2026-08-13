@@ -162,7 +162,15 @@ def export(
         click.echo(f"structural validation (FHIR R4B models): {passed}/{total} passed")
     reports.write_json(Path(reports_dir) / "export-summary.json", summary)
     if fhir_server:
-        from .fhir_server import upload_resources, validate_resources
+        from .fhir_server import upload_resources, validate_resources, wait_until_ready
+
+        # HAPI takes tens of seconds to boot, so `docker compose up -d` returning does not mean the
+        # server is answering. Waiting on /metadata beats a sleep that is either flaky or wasteful.
+        click.echo(f"waiting for {fhir_server} to become ready...")
+        if not wait_until_ready(fhir_server):
+            raise click.ClickException(
+                f"{fhir_server} never answered /metadata; is the server up?"
+            )
 
         # Written to its own report rather than into export-summary.json: that file has to stay
         # byte-identical between runs for CI's report-drift check to mean anything, and this one

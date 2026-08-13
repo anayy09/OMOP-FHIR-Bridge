@@ -235,7 +235,7 @@ def write_map(path: Path, rows: list[dict], provenance: dict[str, str]) -> None:
     with path.open("w", newline="", encoding="utf-8") as fh:
         for key, value in provenance.items():
             fh.write(f"# {key}: {value}\n")
-        writer = csv.DictWriter(fh, fieldnames=FIELDNAMES)
+        writer = csv.DictWriter(fh, fieldnames=FIELDNAMES, lineterminator="\n")
         writer.writeheader()
         for row in sorted(rows, key=lambda r: (r["source_system"], r["source_code"])):
             writer.writerow(row)

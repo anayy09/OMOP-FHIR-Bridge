@@ -237,7 +237,7 @@ def hl7v2_command(src: str, out_path: str) -> None:
     result = translate_directory(src)
     path = Path(out_path)
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(result.bundle, indent=2), encoding="utf-8")
+    path.write_text(json.dumps(result.bundle, indent=2), encoding="utf-8", newline="\n")
     click.echo(
         f"translated {result.messages} ADT message(s) {result.by_event} -> "
         f"{result.resources} in {out_path}"

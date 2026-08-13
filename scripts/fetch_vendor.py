@@ -103,7 +103,7 @@ def main() -> int:
         "```",
         "",
     ]
-    readme.write_text("\n".join(lines), encoding="utf-8")
+    readme.write_text("\n".join(lines), encoding="utf-8", newline="\n")
     print(f"wrote {readme}")
     return 0
 

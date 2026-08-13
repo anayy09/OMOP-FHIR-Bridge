@@ -1,0 +1,12 @@
+# Normalise every text file to LF in the repository.
+#
+# This is not cosmetic here. CI regenerates docs/reports/ and fails the build if the committed copy
+# differs, which is what stops a number in a report going stale. Without this, a report committed
+# from Windows (CRLF) differs from the same report generated on a Linux runner (LF) on every single
+# line, and the check reports a whole-file diff with identical content.
+* text=auto eol=lf
+
+*.sql text eol=lf
+*.hl7 text eol=lf
+*.ndjson text eol=lf
+*.csv text eol=lf

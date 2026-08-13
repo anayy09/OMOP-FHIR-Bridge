@@ -137,7 +137,7 @@ def write_load_report(path: Path, result, corpus) -> None:
     if result.warnings:
         lines += ["## Warnings", ""] + [f"- {w}" for w in result.warnings] + [""]
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text("\n".join(lines), encoding="utf-8")
+    path.write_text("\n".join(lines), encoding="utf-8", newline="\n")
 
 
 def write_validation_report(path: Path, results, ok: bool, errors: int, warnings: int) -> None:
@@ -242,7 +242,7 @@ def write_validation_report(path: Path, results, ok: bool, errors: int, warnings
         "",
     ]
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text("\n".join(lines), encoding="utf-8")
+    path.write_text("\n".join(lines), encoding="utf-8", newline="\n")
 
 
 def write_roundtrip_report(path: Path, comparison: dict, coverage_rows: list[dict], export) -> None:
@@ -339,12 +339,14 @@ def write_roundtrip_report(path: Path, comparison: dict, coverage_rows: list[dic
         "",
     ]
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text("\n".join(lines), encoding="utf-8")
+    path.write_text("\n".join(lines), encoding="utf-8", newline="\n")
 
 
 def write_json(path: Path, payload: dict) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(payload, indent=2, default=str), encoding="utf-8")
+    path.write_text(
+        json.dumps(payload, indent=2, default=str), encoding="utf-8", newline="\n"
+    )
 
 
 def write_server_validation_report(path: Path, summary: dict) -> None:
@@ -420,4 +422,4 @@ def write_server_validation_report(path: Path, summary: dict) -> None:
             "",
         ]
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text("\n".join(lines), encoding="utf-8")
+    path.write_text("\n".join(lines), encoding="utf-8", newline="\n")

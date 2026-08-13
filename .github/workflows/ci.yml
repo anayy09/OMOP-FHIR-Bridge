@@ -84,7 +84,7 @@ jobs:
         run: |
           python - <<'PY'
           import json, sys
-          summary = json.load(open("docs/reports/export-summary.json"))["server_validation"]
+          summary = json.load(open("docs/reports/fhir-server-validation.json"))
           print(f"{summary['server'].get('software')} {summary['server'].get('softwareVersion')} "
                 f"(FHIR {summary['server'].get('fhirVersion')})")
           print(f"{summary['total_passed']}/{summary['total_validated']} passed, "

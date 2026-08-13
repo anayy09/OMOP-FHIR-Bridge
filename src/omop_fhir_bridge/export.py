@@ -573,7 +573,7 @@ class Exporter:
         counts = {}
         for rtype, items in resources.items():
             path = out_dir / f"{rtype}.ndjson"
-            with path.open("w", encoding="utf-8") as fh:
+            with path.open("w", encoding="utf-8", newline="\n") as fh:
                 for item in items:
                     fh.write(json.dumps(item, separators=(",", ":")) + "\n")
             counts[rtype] = len(items)

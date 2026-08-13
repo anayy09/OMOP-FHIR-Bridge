@@ -49,7 +49,7 @@ class _LoadSummary:
 
 
 @click.group(context_settings={"help_option_names": ["-h", "--help"]})
-@click.version_option(package_name="omop-fhir-bridge")
+@click.version_option(package_name="OMOP-FHIR-Bridge")
 def main() -> None:
     """Bidirectional FHIR R4 <-> OMOP CDM v5.4 bridge."""
 

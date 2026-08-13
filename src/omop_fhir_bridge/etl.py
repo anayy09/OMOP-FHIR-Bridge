@@ -794,14 +794,14 @@ class Loader:
             {
                 "cdm_source_name": self.source_name,
                 "cdm_source_abbreviation": "OFB",
-                "cdm_holder": "omop-fhir-bridge",
+                "cdm_holder": "OMOP-FHIR-Bridge",
                 "source_description": (
-                    "FHIR R4 resources mapped by omop-fhir-bridge. Terminology resolved from a "
+                    "FHIR R4 resources mapped by OMOP-FHIR-Bridge. Terminology resolved from a "
                     "committed concept map; unmapped codes are concept_id 0 with source values "
                     "retained."
                 ),
-                "source_documentation_reference": "https://github.com/anayy09/omop-fhir-bridge",
-                "cdm_etl_reference": "https://github.com/anayy09/omop-fhir-bridge/blob/main/docs/mapping-spec.md",
+                "source_documentation_reference": "https://github.com/anayy09/OMOP-FHIR-Bridge",
+                "cdm_etl_reference": "https://github.com/anayy09/OMOP-FHIR-Bridge/blob/main/docs/mapping-spec.md",
                 "source_release_date": today,
                 "cdm_release_date": today,
                 "cdm_version": "v5.4",

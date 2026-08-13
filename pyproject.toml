@@ -3,7 +3,7 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "omop-fhir-bridge"
+name = "OMOP-FHIR-Bridge"
 version = "0.1.0"
 description = "Bidirectional FHIR R4 <-> OMOP CDM v5.4 bridge with DDL-derived conformance checks and a round-trip fidelity report"
 readme = "README.md"

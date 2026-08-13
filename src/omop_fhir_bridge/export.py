@@ -28,8 +28,8 @@ from pathlib import Path
 from . import constants as K
 from .vocab import ConceptMap
 
-ID_SYSTEM = "https://github.com/anayy09/omop-fhir-bridge/fhir-id"
-OMOP_SYSTEM = "https://github.com/anayy09/omop-fhir-bridge/omop-key"
+ID_SYSTEM = "https://github.com/anayy09/OMOP-FHIR-Bridge/fhir-id"
+OMOP_SYSTEM = "https://github.com/anayy09/OMOP-FHIR-Bridge/omop-key"
 
 GENDER_BY_CONCEPT = {v: k for k, v in K.GENDER_BY_FHIR_CODE.items()}
 # The load direction maps IMP, ACUTE and NONAC all onto 9201, so the reverse map has to pick one.

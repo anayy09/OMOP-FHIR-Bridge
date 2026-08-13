@@ -1,0 +1,120 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  # Unit tests, then the whole pipeline on the committed sample. The pipeline's own conformance gate
+  # fails the build, and the committed reports are then compared against the ones just generated --
+  # so a number in a report cannot go stale without the build noticing.
+  pipeline:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.11", "3.12", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+
+      - name: Install
+        run: pip install -e ".[dev]"
+
+      - name: Lint
+        run: ruff check src tests scripts
+
+      - name: Tests
+        run: pytest -q
+
+      - name: Pipeline (load, export, round trip, conformance gate)
+        run: ofb pipeline
+
+      - name: Committed reports must match a fresh run
+        run: |
+          if ! git diff --exit-code --stat -- docs/reports; then
+            echo "::error::docs/reports is stale — run 'ofb pipeline' and commit the result"
+            git diff -- docs/reports | head -200
+            exit 1
+          fi
+
+      - name: Upload reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: reports-py${{ matrix.python-version }}
+          path: docs/reports/
+          if-no-files-found: error
+
+  # Validation against a real FHIR R4 server. Separate job because it needs a container and takes a
+  # minute to boot, and because "a FHIR server accepts this" is a different claim from "my models do".
+  fhir-conformance:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install
+        run: pip install -e ".[dev]"
+
+      - name: Start HAPI FHIR
+        run: docker compose up -d hapi
+
+      - name: Load and export against the server
+        run: |
+          ofb init-db --force
+          ofb load
+          ofb export --fhir-server http://localhost:8080/fhir --upload
+
+      - name: Every exported resource must validate
+        run: |
+          python - <<'PY'
+          import json, sys
+          summary = json.load(open("docs/reports/export-summary.json"))["server_validation"]
+          print(f"{summary['server'].get('software')} {summary['server'].get('softwareVersion')} "
+                f"(FHIR {summary['server'].get('fhirVersion')})")
+          print(f"{summary['total_passed']}/{summary['total_validated']} passed, "
+                f"{summary['total_failed']} failed")
+          for failure in summary["failures"][:10]:
+              print(" ", failure)
+          sys.exit(1 if summary["total_failed"] else 0)
+          PY
+
+      - name: Server logs on failure
+        if: failure()
+        run: docker compose logs --tail 200 hapi
+
+      - name: Stop HAPI FHIR
+        if: always()
+        run: docker compose down -v
+
+  # The concept ids in constants.py assert vocabulary facts. This is the job that checks they are true.
+  # Allowed to fail the workflow, but tolerant of the public service being unreachable.
+  vocabulary:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # The script itself exits non-zero on any disagreement between constants.py and the service,
+      # which is the real gate. The committed report carries the date it was produced, so it is not
+      # diffed -- a date changing is not a finding.
+      - name: Verify hard-coded concept ids against OHDSI
+        run: python scripts/verify_constants.py

@@ -1,0 +1,735 @@
+{
+  "comparison": {
+    "joins": {
+      "joined": 1822
+    },
+    "resource_type_pairs": {
+      "Condition -> Condition": 71,
+      "Encounter -> Encounter": 77,
+      "Immunization -> Immunization": 63,
+      "Immunization -> MedicationRequest": 4,
+      "MedicationRequest -> MedicationRequest": 24,
+      "Observation -> Observation": 860,
+      "Organization -> Organization": 278,
+      "Patient -> Patient": 8,
+      "Practitioner -> Practitioner": 278,
+      "Procedure -> Procedure": 159
+    },
+    "fields": {
+      "Condition": {
+        "abatementDateTime": {
+          "compared": 53,
+          "retained": 53,
+          "transformed": 0,
+          "dropped": 0,
+          "retention": 1.0,
+          "reasons": {},
+          "examples": []
+        },
+        "clinicalStatus.coding.code": {
+          "compared": 71,
+          "retained": 71,
+          "transformed": 0,
+          "dropped": 0,
+          "retention": 1.0,
+          "reasons": {},
+          "examples": []
+        },
+        "code.coding.code": {
+          "compared": 71,
+          "retained": 71,
+          "transformed": 0,
+          "dropped": 0,
+          "retention": 1.0,
+          "reasons": {},
+          "examples": []
+        },
+        "encounter": {
+          "compared": 71,
+          "retained": 71,
+          "transformed": 0,
+          "dropped": 0,
+          "retention": 1.0,
+          "reasons": {},
+          "examples": []
+        },
+        "onsetDateTime": {
+          "compared": 71,
+          "retained": 71,
+          "transformed": 0,
+          "dropped": 0,
+          "retention": 1.0,
+          "reasons": {},
+          "examples": []
+        },
+        "subject": {
+          "compared": 71,
+          "retained": 71,
+          "transformed": 0,
+          "dropped": 0,
+          "retention": 1.0,
+          "reasons": {},
+          "examples": []
+        }
+      },
+      "Encounter": {
+        "class.code": {
+          "compared": 77,
+          "retained": 77,
+          "transformed": 0,
+          "dropped": 0,
+          "retention": 1.0,
+          "reasons": {},
+          "examples": []
+        },
+        "period.end": {
+          "compared": 77,
+          "retained": 77,
+          "transformed": 0,
+          "dropped": 0,
+          "retention": 1.0,
+          "reasons": {},
+          "examples": []
+        },
+        "period.start": {
+          "compared": 77,
+          "retained": 77,
+          "transformed": 0,
+          "dropped": 0,
+          "retention": 1.0,
+          "reasons": {},
+          "examples": []
+        },
+        "serviceProvider": {
+          "compared": 75,
+          "retained": 75,
+          "transformed": 0,
+          "dropped": 0,
+          "retention": 1.0,
+          "reasons": {},
+          "examples": []
+        },
+        "subject": {
+          "compared": 77,
+          "retained": 77,
+          "transformed": 0,
+          "dropped": 0,
+          "retention": 1.0,
+          "reasons": {},
+          "examples": []
+        },
+        "type.coding.code": {
+          "compared": 77,
+          "retained": 77,
+          "transformed": 0,
+          "dropped": 0,
+          "retention": 1.0,
+          "reasons": {},
+          "examples": []
+        }
+      },
+      "Immunization": {
+        "encounter": {
+          "compared": 63,
+          "retained": 63,
+          "transformed": 0,
+          "dropped": 0,
+          "retention": 1.0,
+          "reasons": {},
+          "examples": []
+        },
+        "occurrenceDateTime": {
+          "compared": 63,
+          "retained": 63,
+          "transformed": 0,
+          "dropped": 0,
+          "retention": 1.0,
+          "reasons": {},
+          "examples": []
+        },
+        "patient": {
+          "compared": 63,
+          "retained": 63,
+          "transformed": 0,
+          "dropped": 0,
+          "retention": 1.0,
+          "reasons": {},
+          "examples": []
+        },
+        "vaccineCode.coding.code": {
+          "compared": 63,
+          "retained": 63,
+          "transformed": 0,
+          "dropped": 0,
+          "retention": 1.0,
+          "reasons": {},
+          "examples": []
+        }
+      },
+      "MedicationRequest": {
+        "authoredOn": {
+          "compared": 28,
+          "retained": 24,
+          "transformed": 4,
+          "dropped": 0,
+          "retention": 0.8571,
+          "reasons": {
+            "element belongs to MedicationRequest, not Immunization: the row came back as a different resource type": 4
+          },
+          "examples": [
+            {
+              "before": null,
+              "after": "2023-08-25T18:26:44+00:00"
+            },
+            {
+              "before": null,
+              "after": "2023-09-22T18:26:44+00:00"
+            },
+            {
+              "before": null,
+              "after": "2021-04-20T02:25:04+00:00"
+            }
+          ]
+        },
+        "encounter": {
+          "compared": 28,
+          "retained": 28,
+          "transformed": 0,
+          "dropped": 0,
+          "retention": 1.0,
+          "reasons": {},
+          "examples": []
+        },
+        "medication.coding.code": {
+          "compared": 28,
+          "retained": 20,
+          "transformed": 8,
+          "dropped": 0,
+          "retention": 0.7143,
+          "reasons": {
+            "value changed": 4,
+            "element belongs to MedicationRequest, not Immunization: the row came back as a different resource type": 4
+          },
+          "examples": [
+            {
+              "before": null,
+              "after": "1535362"
+            },
+            {
+              "before": null,
+              "after": "1535362"
+            },
+            {
+              "before": null,
+              "after": "1535362"
+            }
+          ]
+        },
+        "subject": {
+          "compared": 28,
+          "retained": 24,
+          "transformed": 4,
+          "dropped": 0,
+          "retention": 0.8571,
+          "reasons": {
+            "element belongs to MedicationRequest, not Immunization: the row came back as a different resource type": 4
+          },
+          "examples": [
+            {
+              "before": null,
+              "after": "1060044a-f072-f905-e067-c67d12ad8e6b"
+            },
+            {
+              "before": null,
+              "after": "1060044a-f072-f905-e067-c67d12ad8e6b"
+            },
+            {
+              "before": null,
+              "after": "a172af40-3eeb-e33a-f4eb-bcf071ed5299"
+            }
+          ]
+        }
+      },
+      "Observation": {
+        "code.coding.code": {
+          "compared": 860,
+          "retained": 860,
+          "transformed": 0,
+          "dropped": 0,
+          "retention": 1.0,
+          "reasons": {},
+          "examples": []
+        },
+        "effectiveDateTime": {
+          "compared": 860,
+          "retained": 860,
+          "transformed": 0,
+          "dropped": 0,
+          "retention": 1.0,
+          "reasons": {},
+          "examples": []
+        },
+        "encounter": {
+          "compared": 860,
+          "retained": 860,
+          "transformed": 0,
+          "dropped": 0,
+          "retention": 1.0,
+          "reasons": {},
+          "examples": []
+        },
+        "subject": {
+          "compared": 860,
+          "retained": 860,
+          "transformed": 0,
+          "dropped": 0,
+          "retention": 1.0,
+          "reasons": {},
+          "examples": []
+        },
+        "valueQuantity.code": {
+          "compared": 577,
+          "retained": 577,
+          "transformed": 0,
+          "dropped": 0,
+          "retention": 1.0,
+          "reasons": {},
+          "examples": []
+        },
+        "valueQuantity.value": {
+          "compared": 577,
+          "retained": 555,
+          "transformed": 22,
+          "dropped": 0,
+          "retention": 0.9619,
+          "reasons": {
+            "value changed": 22
+          },
+          "examples": [
+            {
+              "before": 4.8278,
+              "after": 4.828
+            },
+            {
+              "before": 5.5525,
+              "after": 5.553
+            },
+            {
+              "before": 5.4854,
+              "after": 5.485
+            }
+          ]
+        }
+      },
+      "Organization": {
+        "address.city": {
+          "compared": 278,
+          "retained": 278,
+          "transformed": 0,
+          "dropped": 0,
+          "retention": 1.0,
+          "reasons": {},
+          "examples": []
+        },
+        "address.postalCode": {
+          "compared": 278,
+          "retained": 278,
+          "transformed": 0,
+          "dropped": 0,
+          "retention": 1.0,
+          "reasons": {},
+          "examples": []
+        },
+        "address.state": {
+          "compared": 278,
+          "retained": 278,
+          "transformed": 0,
+          "dropped": 0,
+          "retention": 1.0,
+          "reasons": {},
+          "examples": []
+        },
+        "name": {
+          "compared": 278,
+          "retained": 278,
+          "transformed": 0,
+          "dropped": 0,
+          "retention": 1.0,
+          "reasons": {},
+          "examples": []
+        }
+      },
+      "Patient": {
+        "address.city": {
+          "compared": 7,
+          "retained": 7,
+          "transformed": 0,
+          "dropped": 0,
+          "retention": 1.0,
+          "reasons": {},
+          "examples": []
+        },
+        "address.postalCode": {
+          "compared": 7,
+          "retained": 7,
+          "transformed": 0,
+          "dropped": 0,
+          "retention": 1.0,
+          "reasons": {},
+          "examples": []
+        },
+        "address.state": {
+          "compared": 7,
+          "retained": 7,
+          "transformed": 0,
+          "dropped": 0,
+          "retention": 1.0,
+          "reasons": {},
+          "examples": []
+        },
+        "birthDate": {
+          "compared": 8,
+          "retained": 8,
+          "transformed": 0,
+          "dropped": 0,
+          "retention": 1.0,
+          "reasons": {},
+          "examples": []
+        },
+        "deceasedDateTime": {
+          "compared": 1,
+          "retained": 1,
+          "transformed": 0,
+          "dropped": 0,
+          "retention": 1.0,
+          "reasons": {},
+          "examples": []
+        },
+        "ethnicity.ombCategory": {
+          "compared": 7,
+          "retained": 7,
+          "transformed": 0,
+          "dropped": 0,
+          "retention": 1.0,
+          "reasons": {},
+          "examples": []
+        },
+        "gender": {
+          "compared": 8,
+          "retained": 8,
+          "transformed": 0,
+          "dropped": 0,
+          "retention": 1.0,
+          "reasons": {},
+          "examples": []
+        },
+        "race.ombCategory": {
+          "compared": 7,
+          "retained": 7,
+          "transformed": 0,
+          "dropped": 0,
+          "retention": 1.0,
+          "reasons": {},
+          "examples": []
+        }
+      },
+      "Practitioner": {
+        "gender": {
+          "compared": 278,
+          "retained": 278,
+          "transformed": 0,
+          "dropped": 0,
+          "retention": 1.0,
+          "reasons": {},
+          "examples": []
+        },
+        "name.family": {
+          "compared": 278,
+          "retained": 0,
+          "transformed": 0,
+          "dropped": 278,
+          "retention": 0.0,
+          "reasons": {
+            "not represented in the CDM": 278
+          },
+          "examples": [
+            {
+              "before": "Reilly981",
+              "after": null
+            },
+            {
+              "before": "Ward668",
+              "after": null
+            },
+            {
+              "before": "Emard19",
+              "after": null
+            }
+          ]
+        },
+        "name.given": {
+          "compared": 278,
+          "retained": 0,
+          "transformed": 0,
+          "dropped": 278,
+          "retention": 0.0,
+          "reasons": {
+            "not represented in the CDM": 278
+          },
+          "examples": [
+            {
+              "before": "Gabriel934",
+              "after": null
+            },
+            {
+              "before": "Lindsay928",
+              "after": null
+            },
+            {
+              "before": "Ronald408",
+              "after": null
+            }
+          ]
+        }
+      },
+      "Procedure": {
+        "code.coding.code": {
+          "compared": 159,
+          "retained": 159,
+          "transformed": 0,
+          "dropped": 0,
+          "retention": 1.0,
+          "reasons": {},
+          "examples": []
+        },
+        "encounter": {
+          "compared": 159,
+          "retained": 159,
+          "transformed": 0,
+          "dropped": 0,
+          "retention": 1.0,
+          "reasons": {},
+          "examples": []
+        },
+        "performedPeriod.start": {
+          "compared": 159,
+          "retained": 159,
+          "transformed": 0,
+          "dropped": 0,
+          "retention": 1.0,
+          "reasons": {},
+          "examples": []
+        },
+        "subject": {
+          "compared": 159,
+          "retained": 159,
+          "transformed": 0,
+          "dropped": 0,
+          "retention": 1.0,
+          "reasons": {},
+          "examples": []
+        }
+      }
+    },
+    "totals": {
+      "compared": 8460,
+      "retained": 7866,
+      "transformed": 38,
+      "dropped": 556,
+      "retention": 0.9298,
+      "retention_including_transformed": 0.9343
+    },
+    "structural_losses": [
+      {
+        "item": "timezone offset",
+        "explanation": "FHIR instants carry a UTC offset; OMOP's TIMESTAMP columns do not, so the offset is dropped on load. The sample corpus is entirely +00:00, so no wall-clock shift is observable here -- but a feed mixing offsets would lose them."
+      },
+      {
+        "item": "Coding.display",
+        "explanation": "OMOP keeps the code in *_source_value and the concept name in the vocabulary, but has no column for the source system's own display string, so it is not recoverable."
+      },
+      {
+        "item": "Observation.category",
+        "explanation": "laboratory / vital-signs / survey drives domain routing on load and is then gone: MEASUREMENT versus OBSERVATION is the only trace left of it."
+      },
+      {
+        "item": "resource identity",
+        "explanation": "Nothing in the CDM records which FHIR resource a row came from. This bridge keeps a bridge_source_map lineage table so ids can be put back; without it the round trip could not even be joined."
+      },
+      {
+        "item": "narrative and provenance",
+        "explanation": "Resource.text, meta.profile, Provenance and DocumentReference have no CDM home."
+      }
+    ]
+  },
+  "resource_coverage": [
+    {
+      "resource_type": "AllergyIntolerance",
+      "in_source": 4,
+      "omop_rows": 0,
+      "exported": 0,
+      "mapped": false
+    },
+    {
+      "resource_type": "CarePlan",
+      "in_source": 4,
+      "omop_rows": 0,
+      "exported": 0,
+      "mapped": false
+    },
+    {
+      "resource_type": "CareTeam",
+      "in_source": 4,
+      "omop_rows": 0,
+      "exported": 0,
+      "mapped": false
+    },
+    {
+      "resource_type": "Claim",
+      "in_source": 99,
+      "omop_rows": 0,
+      "exported": 0,
+      "mapped": false
+    },
+    {
+      "resource_type": "Condition",
+      "in_source": 71,
+      "omop_rows": 71,
+      "exported": 71,
+      "mapped": true
+    },
+    {
+      "resource_type": "Device",
+      "in_source": 4,
+      "omop_rows": 0,
+      "exported": 0,
+      "mapped": false
+    },
+    {
+      "resource_type": "DiagnosticReport",
+      "in_source": 134,
+      "omop_rows": 0,
+      "exported": 0,
+      "mapped": false
+    },
+    {
+      "resource_type": "DocumentReference",
+      "in_source": 75,
+      "omop_rows": 0,
+      "exported": 0,
+      "mapped": false
+    },
+    {
+      "resource_type": "Encounter",
+      "in_source": 77,
+      "omop_rows": 77,
+      "exported": 77,
+      "mapped": true
+    },
+    {
+      "resource_type": "ExplanationOfBenefit",
+      "in_source": 99,
+      "omop_rows": 0,
+      "exported": 0,
+      "mapped": false
+    },
+    {
+      "resource_type": "ImagingStudy",
+      "in_source": 2,
+      "omop_rows": 0,
+      "exported": 0,
+      "mapped": false
+    },
+    {
+      "resource_type": "Immunization",
+      "in_source": 67,
+      "omop_rows": 67,
+      "exported": 63,
+      "mapped": true
+    },
+    {
+      "resource_type": "Location",
+      "in_source": 279,
+      "omop_rows": 0,
+      "exported": 0,
+      "mapped": false
+    },
+    {
+      "resource_type": "Medication",
+      "in_source": 4,
+      "omop_rows": 0,
+      "exported": 0,
+      "mapped": false
+    },
+    {
+      "resource_type": "MedicationAdministration",
+      "in_source": 4,
+      "omop_rows": 0,
+      "exported": 0,
+      "mapped": false
+    },
+    {
+      "resource_type": "MedicationRequest",
+      "in_source": 24,
+      "omop_rows": 24,
+      "exported": 28,
+      "mapped": true
+    },
+    {
+      "resource_type": "Observation",
+      "in_source": 562,
+      "omop_rows": 860,
+      "exported": 860,
+      "mapped": true
+    },
+    {
+      "resource_type": "Organization",
+      "in_source": 278,
+      "omop_rows": 278,
+      "exported": 278,
+      "mapped": true
+    },
+    {
+      "resource_type": "Patient",
+      "in_source": 8,
+      "omop_rows": 9,
+      "exported": 8,
+      "mapped": true
+    },
+    {
+      "resource_type": "Practitioner",
+      "in_source": 278,
+      "omop_rows": 278,
+      "exported": 278,
+      "mapped": true
+    },
+    {
+      "resource_type": "PractitionerRole",
+      "in_source": 278,
+      "omop_rows": 0,
+      "exported": 0,
+      "mapped": false
+    },
+    {
+      "resource_type": "Procedure",
+      "in_source": 159,
+      "omop_rows": 159,
+      "exported": 159,
+      "mapped": true
+    },
+    {
+      "resource_type": "Provenance",
+      "in_source": 5,
+      "omop_rows": 0,
+      "exported": 0,
+      "mapped": false
+    },
+    {
+      "resource_type": "SupplyDelivery",
+      "in_source": 33,
+      "omop_rows": 0,
+      "exported": 0,
+      "mapped": false
+    }
+  ]
+}

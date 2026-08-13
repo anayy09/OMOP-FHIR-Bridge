@@ -1,0 +1,33 @@
+# A real FHIR R4 server to validate the export against.
+#
+# Pydantic models check the shape of a resource. This checks it against the published R4
+# StructureDefinitions, using the same software a hospital integration team would point at the feed,
+# which is the difference between "my code thinks this is valid" and "a FHIR server accepts it".
+#
+#   docker compose up -d hapi
+#   ofb export --fhir-server http://localhost:8080/fhir --upload
+#
+# HAPI takes roughly a minute to become ready; `ofb` waits on /metadata rather than sleeping.
+services:
+  hapi:
+    image: hapiproject/hapi:v8.0.0
+    container_name: ofb-hapi
+    ports:
+      - "8080:8080"
+    environment:
+      # In-memory H2: the server is a validator here, not a system of record. Nothing persists
+      # between runs, which is what you want for a reproducible check.
+      hapi.fhir.fhir_version: R4
+      hapi.fhir.allow_external_references: "true"
+      hapi.fhir.enforce_referential_integrity_on_write: "false"
+      spring.datasource.url: jdbc:h2:mem:hapi;DB_CLOSE_DELAY=-1
+      spring.datasource.driverClassName: org.h2.Driver
+      spring.datasource.username: sa
+      spring.datasource.password: ""
+      spring.jpa.properties.hibernate.dialect: org.hibernate.dialect.H2Dialect
+    healthcheck:
+      test: ["CMD-SHELL", "curl -sf http://localhost:8080/fhir/metadata > /dev/null || exit 1"]
+      interval: 15s
+      timeout: 10s
+      retries: 20
+      start_period: 60s

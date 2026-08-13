@@ -1,0 +1,18 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Generated artefacts. The reports under docs/reports/ are committed on purpose so the repository can
+# be read without being run; everything here is rebuilt by `ofb pipeline`.
+out/
+.cache/
+.pytest_cache/
+.ruff_cache/
+
+.DS_Store
+.idea/
+.vscode/

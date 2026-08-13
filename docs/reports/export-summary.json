@@ -1,0 +1,58 @@
+{
+  "counts": {
+    "Organization": 278,
+    "Practitioner": 278,
+    "Patient": 8,
+    "Encounter": 77,
+    "Condition": 71,
+    "Procedure": 159,
+    "Observation": 860,
+    "MedicationRequest": 28,
+    "Immunization": 63
+  },
+  "total": 1822,
+  "structural_validation": {
+    "validator": "fhir.resources R4B models",
+    "by_type": {
+      "Organization": {
+        "validated": 278,
+        "passed": 278
+      },
+      "Practitioner": {
+        "validated": 278,
+        "passed": 278
+      },
+      "Patient": {
+        "validated": 8,
+        "passed": 8
+      },
+      "Encounter": {
+        "validated": 77,
+        "passed": 77
+      },
+      "Condition": {
+        "validated": 71,
+        "passed": 71
+      },
+      "Procedure": {
+        "validated": 159,
+        "passed": 159
+      },
+      "Observation": {
+        "validated": 860,
+        "passed": 860
+      },
+      "MedicationRequest": {
+        "validated": 28,
+        "passed": 28
+      },
+      "Immunization": {
+        "validated": 63,
+        "passed": 63
+      }
+    },
+    "errors": [],
+    "total": 1822,
+    "passed": 1822
+  }
+}

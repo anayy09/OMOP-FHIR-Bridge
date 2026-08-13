@@ -1,0 +1,2167 @@
+{
+  "gate_passed": true,
+  "failing_errors": 0,
+  "failing_warnings": 2,
+  "checks": [
+    {
+      "check": "not_null",
+      "target": "location.location_id",
+      "severity": "error",
+      "examined": 278,
+      "failures": 0,
+      "passed": true,
+      "detail": "column is NOT NULL in the OHDSI DDL",
+      "examples": []
+    },
+    {
+      "check": "not_null",
+      "target": "care_site.care_site_id",
+      "severity": "error",
+      "examined": 278,
+      "failures": 0,
+      "passed": true,
+      "detail": "column is NOT NULL in the OHDSI DDL",
+      "examples": []
+    },
+    {
+      "check": "not_null",
+      "target": "provider.provider_id",
+      "severity": "error",
+      "examined": 278,
+      "failures": 0,
+      "passed": true,
+      "detail": "column is NOT NULL in the OHDSI DDL",
+      "examples": []
+    },
+    {
+      "check": "not_null",
+      "target": "person.person_id",
+      "severity": "error",
+      "examined": 8,
+      "failures": 0,
+      "passed": true,
+      "detail": "column is NOT NULL in the OHDSI DDL",
+      "examples": []
+    },
+    {
+      "check": "not_null",
+      "target": "person.gender_concept_id",
+      "severity": "error",
+      "examined": 8,
+      "failures": 0,
+      "passed": true,
+      "detail": "column is NOT NULL in the OHDSI DDL",
+      "examples": []
+    },
+    {
+      "check": "not_null",
+      "target": "person.year_of_birth",
+      "severity": "error",
+      "examined": 8,
+      "failures": 0,
+      "passed": true,
+      "detail": "column is NOT NULL in the OHDSI DDL",
+      "examples": []
+    },
+    {
+      "check": "not_null",
+      "target": "person.race_concept_id",
+      "severity": "error",
+      "examined": 8,
+      "failures": 0,
+      "passed": true,
+      "detail": "column is NOT NULL in the OHDSI DDL",
+      "examples": []
+    },
+    {
+      "check": "not_null",
+      "target": "person.ethnicity_concept_id",
+      "severity": "error",
+      "examined": 8,
+      "failures": 0,
+      "passed": true,
+      "detail": "column is NOT NULL in the OHDSI DDL",
+      "examples": []
+    },
+    {
+      "check": "not_null",
+      "target": "observation_period.observation_period_id",
+      "severity": "error",
+      "examined": 7,
+      "failures": 0,
+      "passed": true,
+      "detail": "column is NOT NULL in the OHDSI DDL",
+      "examples": []
+    },
+    {
+      "check": "not_null",
+      "target": "observation_period.person_id",
+      "severity": "error",
+      "examined": 7,
+      "failures": 0,
+      "passed": true,
+      "detail": "column is NOT NULL in the OHDSI DDL",
+      "examples": []
+    },
+    {
+      "check": "not_null",
+      "target": "observation_period.observation_period_start_date",
+      "severity": "error",
+      "examined": 7,
+      "failures": 0,
+      "passed": true,
+      "detail": "column is NOT NULL in the OHDSI DDL",
+      "examples": []
+    },
+    {
+      "check": "not_null",
+      "target": "observation_period.observation_period_end_date",
+      "severity": "error",
+      "examined": 7,
+      "failures": 0,
+      "passed": true,
+      "detail": "column is NOT NULL in the OHDSI DDL",
+      "examples": []
+    },
+    {
+      "check": "not_null",
+      "target": "observation_period.period_type_concept_id",
+      "severity": "error",
+      "examined": 7,
+      "failures": 0,
+      "passed": true,
+      "detail": "column is NOT NULL in the OHDSI DDL",
+      "examples": []
+    },
+    {
+      "check": "not_null",
+      "target": "visit_occurrence.visit_occurrence_id",
+      "severity": "error",
+      "examined": 77,
+      "failures": 0,
+      "passed": true,
+      "detail": "column is NOT NULL in the OHDSI DDL",
+      "examples": []
+    },
+    {
+      "check": "not_null",
+      "target": "visit_occurrence.person_id",
+      "severity": "error",
+      "examined": 77,
+      "failures": 0,
+      "passed": true,
+      "detail": "column is NOT NULL in the OHDSI DDL",
+      "examples": []
+    },
+    {
+      "check": "not_null",
+      "target": "visit_occurrence.visit_concept_id",
+      "severity": "error",
+      "examined": 77,
+      "failures": 0,
+      "passed": true,
+      "detail": "column is NOT NULL in the OHDSI DDL",
+      "examples": []
+    },
+    {
+      "check": "not_null",
+      "target": "visit_occurrence.visit_start_date",
+      "severity": "error",
+      "examined": 77,
+      "failures": 0,
+      "passed": true,
+      "detail": "column is NOT NULL in the OHDSI DDL",
+      "examples": []
+    },
+    {
+      "check": "not_null",
+      "target": "visit_occurrence.visit_end_date",
+      "severity": "error",
+      "examined": 77,
+      "failures": 0,
+      "passed": true,
+      "detail": "column is NOT NULL in the OHDSI DDL",
+      "examples": []
+    },
+    {
+      "check": "not_null",
+      "target": "visit_occurrence.visit_type_concept_id",
+      "severity": "error",
+      "examined": 77,
+      "failures": 0,
+      "passed": true,
+      "detail": "column is NOT NULL in the OHDSI DDL",
+      "examples": []
+    },
+    {
+      "check": "not_null",
+      "target": "condition_occurrence.condition_occurrence_id",
+      "severity": "error",
+      "examined": 71,
+      "failures": 0,
+      "passed": true,
+      "detail": "column is NOT NULL in the OHDSI DDL",
+      "examples": []
+    },
+    {
+      "check": "not_null",
+      "target": "condition_occurrence.person_id",
+      "severity": "error",
+      "examined": 71,
+      "failures": 0,
+      "passed": true,
+      "detail": "column is NOT NULL in the OHDSI DDL",
+      "examples": []
+    },
+    {
+      "check": "not_null",
+      "target": "condition_occurrence.condition_concept_id",
+      "severity": "error",
+      "examined": 71,
+      "failures": 0,
+      "passed": true,
+      "detail": "column is NOT NULL in the OHDSI DDL",
+      "examples": []
+    },
+    {
+      "check": "not_null",
+      "target": "condition_occurrence.condition_start_date",
+      "severity": "error",
+      "examined": 71,
+      "failures": 0,
+      "passed": true,
+      "detail": "column is NOT NULL in the OHDSI DDL",
+      "examples": []
+    },
+    {
+      "check": "not_null",
+      "target": "condition_occurrence.condition_type_concept_id",
+      "severity": "error",
+      "examined": 71,
+      "failures": 0,
+      "passed": true,
+      "detail": "column is NOT NULL in the OHDSI DDL",
+      "examples": []
+    },
+    {
+      "check": "not_null",
+      "target": "procedure_occurrence.procedure_occurrence_id",
+      "severity": "error",
+      "examined": 159,
+      "failures": 0,
+      "passed": true,
+      "detail": "column is NOT NULL in the OHDSI DDL",
+      "examples": []
+    },
+    {
+      "check": "not_null",
+      "target": "procedure_occurrence.person_id",
+      "severity": "error",
+      "examined": 159,
+      "failures": 0,
+      "passed": true,
+      "detail": "column is NOT NULL in the OHDSI DDL",
+      "examples": []
+    },
+    {
+      "check": "not_null",
+      "target": "procedure_occurrence.procedure_concept_id",
+      "severity": "error",
+      "examined": 159,
+      "failures": 0,
+      "passed": true,
+      "detail": "column is NOT NULL in the OHDSI DDL",
+      "examples": []
+    },
+    {
+      "check": "not_null",
+      "target": "procedure_occurrence.procedure_date",
+      "severity": "error",
+      "examined": 159,
+      "failures": 0,
+      "passed": true,
+      "detail": "column is NOT NULL in the OHDSI DDL",
+      "examples": []
+    },
+    {
+      "check": "not_null",
+      "target": "procedure_occurrence.procedure_type_concept_id",
+      "severity": "error",
+      "examined": 159,
+      "failures": 0,
+      "passed": true,
+      "detail": "column is NOT NULL in the OHDSI DDL",
+      "examples": []
+    },
+    {
+      "check": "not_null",
+      "target": "drug_exposure.drug_exposure_id",
+      "severity": "error",
+      "examined": 91,
+      "failures": 0,
+      "passed": true,
+      "detail": "column is NOT NULL in the OHDSI DDL",
+      "examples": []
+    },
+    {
+      "check": "not_null",
+      "target": "drug_exposure.person_id",
+      "severity": "error",
+      "examined": 91,
+      "failures": 0,
+      "passed": true,
+      "detail": "column is NOT NULL in the OHDSI DDL",
+      "examples": []
+    },
+    {
+      "check": "not_null",
+      "target": "drug_exposure.drug_concept_id",
+      "severity": "error",
+      "examined": 91,
+      "failures": 0,
+      "passed": true,
+      "detail": "column is NOT NULL in the OHDSI DDL",
+      "examples": []
+    },
+    {
+      "check": "not_null",
+      "target": "drug_exposure.drug_exposure_start_date",
+      "severity": "error",
+      "examined": 91,
+      "failures": 0,
+      "passed": true,
+      "detail": "column is NOT NULL in the OHDSI DDL",
+      "examples": []
+    },
+    {
+      "check": "not_null",
+      "target": "drug_exposure.drug_exposure_end_date",
+      "severity": "error",
+      "examined": 91,
+      "failures": 0,
+      "passed": true,
+      "detail": "column is NOT NULL in the OHDSI DDL",
+      "examples": []
+    },
+    {
+      "check": "not_null",
+      "target": "drug_exposure.drug_type_concept_id",
+      "severity": "error",
+      "examined": 91,
+      "failures": 0,
+      "passed": true,
+      "detail": "column is NOT NULL in the OHDSI DDL",
+      "examples": []
+    },
+    {
+      "check": "not_null",
+      "target": "measurement.measurement_id",
+      "severity": "error",
+      "examined": 512,
+      "failures": 0,
+      "passed": true,
+      "detail": "column is NOT NULL in the OHDSI DDL",
+      "examples": []
+    },
+    {
+      "check": "not_null",
+      "target": "measurement.person_id",
+      "severity": "error",
+      "examined": 512,
+      "failures": 0,
+      "passed": true,
+      "detail": "column is NOT NULL in the OHDSI DDL",
+      "examples": []
+    },
+    {
+      "check": "not_null",
+      "target": "measurement.measurement_concept_id",
+      "severity": "error",
+      "examined": 512,
+      "failures": 0,
+      "passed": true,
+      "detail": "column is NOT NULL in the OHDSI DDL",
+      "examples": []
+    },
+    {
+      "check": "not_null",
+      "target": "measurement.measurement_date",
+      "severity": "error",
+      "examined": 512,
+      "failures": 0,
+      "passed": true,
+      "detail": "column is NOT NULL in the OHDSI DDL",
+      "examples": []
+    },
+    {
+      "check": "not_null",
+      "target": "measurement.measurement_type_concept_id",
+      "severity": "error",
+      "examined": 512,
+      "failures": 0,
+      "passed": true,
+      "detail": "column is NOT NULL in the OHDSI DDL",
+      "examples": []
+    },
+    {
+      "check": "not_null",
+      "target": "observation.observation_id",
+      "severity": "error",
+      "examined": 348,
+      "failures": 0,
+      "passed": true,
+      "detail": "column is NOT NULL in the OHDSI DDL",
+      "examples": []
+    },
+    {
+      "check": "not_null",
+      "target": "observation.person_id",
+      "severity": "error",
+      "examined": 348,
+      "failures": 0,
+      "passed": true,
+      "detail": "column is NOT NULL in the OHDSI DDL",
+      "examples": []
+    },
+    {
+      "check": "not_null",
+      "target": "observation.observation_concept_id",
+      "severity": "error",
+      "examined": 348,
+      "failures": 0,
+      "passed": true,
+      "detail": "column is NOT NULL in the OHDSI DDL",
+      "examples": []
+    },
+    {
+      "check": "not_null",
+      "target": "observation.observation_date",
+      "severity": "error",
+      "examined": 348,
+      "failures": 0,
+      "passed": true,
+      "detail": "column is NOT NULL in the OHDSI DDL",
+      "examples": []
+    },
+    {
+      "check": "not_null",
+      "target": "observation.observation_type_concept_id",
+      "severity": "error",
+      "examined": 348,
+      "failures": 0,
+      "passed": true,
+      "detail": "column is NOT NULL in the OHDSI DDL",
+      "examples": []
+    },
+    {
+      "check": "not_null",
+      "target": "death.person_id",
+      "severity": "error",
+      "examined": 1,
+      "failures": 0,
+      "passed": true,
+      "detail": "column is NOT NULL in the OHDSI DDL",
+      "examples": []
+    },
+    {
+      "check": "not_null",
+      "target": "death.death_date",
+      "severity": "error",
+      "examined": 1,
+      "failures": 0,
+      "passed": true,
+      "detail": "column is NOT NULL in the OHDSI DDL",
+      "examples": []
+    },
+    {
+      "check": "not_null",
+      "target": "cdm_source.cdm_source_name",
+      "severity": "error",
+      "examined": 1,
+      "failures": 0,
+      "passed": true,
+      "detail": "column is NOT NULL in the OHDSI DDL",
+      "examples": []
+    },
+    {
+      "check": "not_null",
+      "target": "cdm_source.cdm_source_abbreviation",
+      "severity": "error",
+      "examined": 1,
+      "failures": 0,
+      "passed": true,
+      "detail": "column is NOT NULL in the OHDSI DDL",
+      "examples": []
+    },
+    {
+      "check": "not_null",
+      "target": "cdm_source.cdm_holder",
+      "severity": "error",
+      "examined": 1,
+      "failures": 0,
+      "passed": true,
+      "detail": "column is NOT NULL in the OHDSI DDL",
+      "examples": []
+    },
+    {
+      "check": "not_null",
+      "target": "cdm_source.source_release_date",
+      "severity": "error",
+      "examined": 1,
+      "failures": 0,
+      "passed": true,
+      "detail": "column is NOT NULL in the OHDSI DDL",
+      "examples": []
+    },
+    {
+      "check": "not_null",
+      "target": "cdm_source.cdm_release_date",
+      "severity": "error",
+      "examined": 1,
+      "failures": 0,
+      "passed": true,
+      "detail": "column is NOT NULL in the OHDSI DDL",
+      "examples": []
+    },
+    {
+      "check": "not_null",
+      "target": "cdm_source.cdm_version_concept_id",
+      "severity": "error",
+      "examined": 1,
+      "failures": 0,
+      "passed": true,
+      "detail": "column is NOT NULL in the OHDSI DDL",
+      "examples": []
+    },
+    {
+      "check": "not_null",
+      "target": "cdm_source.vocabulary_version",
+      "severity": "error",
+      "examined": 1,
+      "failures": 0,
+      "passed": true,
+      "detail": "column is NOT NULL in the OHDSI DDL",
+      "examples": []
+    },
+    {
+      "check": "varchar_length",
+      "target": "location.address_1",
+      "severity": "error",
+      "examined": 278,
+      "failures": 0,
+      "passed": true,
+      "detail": "DDL declares varchar(50)",
+      "examples": []
+    },
+    {
+      "check": "varchar_length",
+      "target": "location.address_2",
+      "severity": "error",
+      "examined": 278,
+      "failures": 0,
+      "passed": true,
+      "detail": "DDL declares varchar(50)",
+      "examples": []
+    },
+    {
+      "check": "varchar_length",
+      "target": "location.city",
+      "severity": "error",
+      "examined": 278,
+      "failures": 0,
+      "passed": true,
+      "detail": "DDL declares varchar(50)",
+      "examples": []
+    },
+    {
+      "check": "varchar_length",
+      "target": "location.state",
+      "severity": "error",
+      "examined": 278,
+      "failures": 0,
+      "passed": true,
+      "detail": "DDL declares varchar(2)",
+      "examples": []
+    },
+    {
+      "check": "varchar_length",
+      "target": "location.zip",
+      "severity": "error",
+      "examined": 278,
+      "failures": 0,
+      "passed": true,
+      "detail": "DDL declares varchar(9)",
+      "examples": []
+    },
+    {
+      "check": "varchar_length",
+      "target": "location.county",
+      "severity": "error",
+      "examined": 278,
+      "failures": 0,
+      "passed": true,
+      "detail": "DDL declares varchar(20)",
+      "examples": []
+    },
+    {
+      "check": "varchar_length",
+      "target": "location.location_source_value",
+      "severity": "error",
+      "examined": 278,
+      "failures": 0,
+      "passed": true,
+      "detail": "DDL declares varchar(50)",
+      "examples": []
+    },
+    {
+      "check": "varchar_length",
+      "target": "location.country_source_value",
+      "severity": "error",
+      "examined": 278,
+      "failures": 0,
+      "passed": true,
+      "detail": "DDL declares varchar(80)",
+      "examples": []
+    },
+    {
+      "check": "varchar_length",
+      "target": "care_site.care_site_name",
+      "severity": "error",
+      "examined": 278,
+      "failures": 0,
+      "passed": true,
+      "detail": "DDL declares varchar(255)",
+      "examples": []
+    },
+    {
+      "check": "varchar_length",
+      "target": "care_site.care_site_source_value",
+      "severity": "error",
+      "examined": 278,
+      "failures": 0,
+      "passed": true,
+      "detail": "DDL declares varchar(50)",
+      "examples": []
+    },
+    {
+      "check": "varchar_length",
+      "target": "care_site.place_of_service_source_value",
+      "severity": "error",
+      "examined": 278,
+      "failures": 0,
+      "passed": true,
+      "detail": "DDL declares varchar(50)",
+      "examples": []
+    },
+    {
+      "check": "varchar_length",
+      "target": "provider.provider_name",
+      "severity": "error",
+      "examined": 278,
+      "failures": 0,
+      "passed": true,
+      "detail": "DDL declares varchar(255)",
+      "examples": []
+    },
+    {
+      "check": "varchar_length",
+      "target": "provider.npi",
+      "severity": "error",
+      "examined": 278,
+      "failures": 0,
+      "passed": true,
+      "detail": "DDL declares varchar(20)",
+      "examples": []
+    },
+    {
+      "check": "varchar_length",
+      "target": "provider.dea",
+      "severity": "error",
+      "examined": 278,
+      "failures": 0,
+      "passed": true,
+      "detail": "DDL declares varchar(20)",
+      "examples": []
+    },
+    {
+      "check": "varchar_length",
+      "target": "provider.provider_source_value",
+      "severity": "error",
+      "examined": 278,
+      "failures": 0,
+      "passed": true,
+      "detail": "DDL declares varchar(50)",
+      "examples": []
+    },
+    {
+      "check": "varchar_length",
+      "target": "provider.specialty_source_value",
+      "severity": "error",
+      "examined": 278,
+      "failures": 0,
+      "passed": true,
+      "detail": "DDL declares varchar(50)",
+      "examples": []
+    },
+    {
+      "check": "varchar_length",
+      "target": "provider.gender_source_value",
+      "severity": "error",
+      "examined": 278,
+      "failures": 0,
+      "passed": true,
+      "detail": "DDL declares varchar(50)",
+      "examples": []
+    },
+    {
+      "check": "varchar_length",
+      "target": "person.person_source_value",
+      "severity": "error",
+      "examined": 8,
+      "failures": 0,
+      "passed": true,
+      "detail": "DDL declares varchar(50)",
+      "examples": []
+    },
+    {
+      "check": "varchar_length",
+      "target": "person.gender_source_value",
+      "severity": "error",
+      "examined": 8,
+      "failures": 0,
+      "passed": true,
+      "detail": "DDL declares varchar(50)",
+      "examples": []
+    },
+    {
+      "check": "varchar_length",
+      "target": "person.race_source_value",
+      "severity": "error",
+      "examined": 8,
+      "failures": 0,
+      "passed": true,
+      "detail": "DDL declares varchar(50)",
+      "examples": []
+    },
+    {
+      "check": "varchar_length",
+      "target": "person.ethnicity_source_value",
+      "severity": "error",
+      "examined": 8,
+      "failures": 0,
+      "passed": true,
+      "detail": "DDL declares varchar(50)",
+      "examples": []
+    },
+    {
+      "check": "varchar_length",
+      "target": "visit_occurrence.visit_source_value",
+      "severity": "error",
+      "examined": 77,
+      "failures": 0,
+      "passed": true,
+      "detail": "DDL declares varchar(50)",
+      "examples": []
+    },
+    {
+      "check": "varchar_length",
+      "target": "visit_occurrence.admitted_from_source_value",
+      "severity": "error",
+      "examined": 77,
+      "failures": 0,
+      "passed": true,
+      "detail": "DDL declares varchar(50)",
+      "examples": []
+    },
+    {
+      "check": "varchar_length",
+      "target": "visit_occurrence.discharged_to_source_value",
+      "severity": "error",
+      "examined": 77,
+      "failures": 0,
+      "passed": true,
+      "detail": "DDL declares varchar(50)",
+      "examples": []
+    },
+    {
+      "check": "varchar_length",
+      "target": "condition_occurrence.stop_reason",
+      "severity": "error",
+      "examined": 71,
+      "failures": 0,
+      "passed": true,
+      "detail": "DDL declares varchar(20)",
+      "examples": []
+    },
+    {
+      "check": "varchar_length",
+      "target": "condition_occurrence.condition_source_value",
+      "severity": "error",
+      "examined": 71,
+      "failures": 0,
+      "passed": true,
+      "detail": "DDL declares varchar(50)",
+      "examples": []
+    },
+    {
+      "check": "varchar_length",
+      "target": "condition_occurrence.condition_status_source_value",
+      "severity": "error",
+      "examined": 71,
+      "failures": 0,
+      "passed": true,
+      "detail": "DDL declares varchar(50)",
+      "examples": []
+    },
+    {
+      "check": "varchar_length",
+      "target": "procedure_occurrence.procedure_source_value",
+      "severity": "error",
+      "examined": 159,
+      "failures": 0,
+      "passed": true,
+      "detail": "DDL declares varchar(50)",
+      "examples": []
+    },
+    {
+      "check": "varchar_length",
+      "target": "procedure_occurrence.modifier_source_value",
+      "severity": "error",
+      "examined": 159,
+      "failures": 0,
+      "passed": true,
+      "detail": "DDL declares varchar(50)",
+      "examples": []
+    },
+    {
+      "check": "varchar_length",
+      "target": "drug_exposure.stop_reason",
+      "severity": "error",
+      "examined": 91,
+      "failures": 0,
+      "passed": true,
+      "detail": "DDL declares varchar(20)",
+      "examples": []
+    },
+    {
+      "check": "varchar_length",
+      "target": "drug_exposure.lot_number",
+      "severity": "error",
+      "examined": 91,
+      "failures": 0,
+      "passed": true,
+      "detail": "DDL declares varchar(50)",
+      "examples": []
+    },
+    {
+      "check": "varchar_length",
+      "target": "drug_exposure.drug_source_value",
+      "severity": "error",
+      "examined": 91,
+      "failures": 0,
+      "passed": true,
+      "detail": "DDL declares varchar(50)",
+      "examples": []
+    },
+    {
+      "check": "varchar_length",
+      "target": "drug_exposure.route_source_value",
+      "severity": "error",
+      "examined": 91,
+      "failures": 0,
+      "passed": true,
+      "detail": "DDL declares varchar(50)",
+      "examples": []
+    },
+    {
+      "check": "varchar_length",
+      "target": "drug_exposure.dose_unit_source_value",
+      "severity": "error",
+      "examined": 91,
+      "failures": 0,
+      "passed": true,
+      "detail": "DDL declares varchar(50)",
+      "examples": []
+    },
+    {
+      "check": "varchar_length",
+      "target": "measurement.measurement_time",
+      "severity": "error",
+      "examined": 512,
+      "failures": 0,
+      "passed": true,
+      "detail": "DDL declares varchar(10)",
+      "examples": []
+    },
+    {
+      "check": "varchar_length",
+      "target": "measurement.measurement_source_value",
+      "severity": "error",
+      "examined": 512,
+      "failures": 0,
+      "passed": true,
+      "detail": "DDL declares varchar(50)",
+      "examples": []
+    },
+    {
+      "check": "varchar_length",
+      "target": "measurement.unit_source_value",
+      "severity": "error",
+      "examined": 512,
+      "failures": 0,
+      "passed": true,
+      "detail": "DDL declares varchar(50)",
+      "examples": []
+    },
+    {
+      "check": "varchar_length",
+      "target": "measurement.value_source_value",
+      "severity": "error",
+      "examined": 512,
+      "failures": 0,
+      "passed": true,
+      "detail": "DDL declares varchar(50)",
+      "examples": []
+    },
+    {
+      "check": "varchar_length",
+      "target": "observation.value_as_string",
+      "severity": "error",
+      "examined": 348,
+      "failures": 0,
+      "passed": true,
+      "detail": "DDL declares varchar(60)",
+      "examples": []
+    },
+    {
+      "check": "varchar_length",
+      "target": "observation.observation_source_value",
+      "severity": "error",
+      "examined": 348,
+      "failures": 0,
+      "passed": true,
+      "detail": "DDL declares varchar(50)",
+      "examples": []
+    },
+    {
+      "check": "varchar_length",
+      "target": "observation.unit_source_value",
+      "severity": "error",
+      "examined": 348,
+      "failures": 0,
+      "passed": true,
+      "detail": "DDL declares varchar(50)",
+      "examples": []
+    },
+    {
+      "check": "varchar_length",
+      "target": "observation.qualifier_source_value",
+      "severity": "error",
+      "examined": 348,
+      "failures": 0,
+      "passed": true,
+      "detail": "DDL declares varchar(50)",
+      "examples": []
+    },
+    {
+      "check": "varchar_length",
+      "target": "observation.value_source_value",
+      "severity": "error",
+      "examined": 348,
+      "failures": 0,
+      "passed": true,
+      "detail": "DDL declares varchar(50)",
+      "examples": []
+    },
+    {
+      "check": "varchar_length",
+      "target": "death.cause_source_value",
+      "severity": "error",
+      "examined": 1,
+      "failures": 0,
+      "passed": true,
+      "detail": "DDL declares varchar(50)",
+      "examples": []
+    },
+    {
+      "check": "varchar_length",
+      "target": "cdm_source.cdm_source_name",
+      "severity": "error",
+      "examined": 1,
+      "failures": 0,
+      "passed": true,
+      "detail": "DDL declares varchar(255)",
+      "examples": []
+    },
+    {
+      "check": "varchar_length",
+      "target": "cdm_source.cdm_source_abbreviation",
+      "severity": "error",
+      "examined": 1,
+      "failures": 0,
+      "passed": true,
+      "detail": "DDL declares varchar(25)",
+      "examples": []
+    },
+    {
+      "check": "varchar_length",
+      "target": "cdm_source.cdm_holder",
+      "severity": "error",
+      "examined": 1,
+      "failures": 0,
+      "passed": true,
+      "detail": "DDL declares varchar(255)",
+      "examples": []
+    },
+    {
+      "check": "varchar_length",
+      "target": "cdm_source.source_documentation_reference",
+      "severity": "error",
+      "examined": 1,
+      "failures": 0,
+      "passed": true,
+      "detail": "DDL declares varchar(255)",
+      "examples": []
+    },
+    {
+      "check": "varchar_length",
+      "target": "cdm_source.cdm_etl_reference",
+      "severity": "error",
+      "examined": 1,
+      "failures": 0,
+      "passed": true,
+      "detail": "DDL declares varchar(255)",
+      "examples": []
+    },
+    {
+      "check": "varchar_length",
+      "target": "cdm_source.cdm_version",
+      "severity": "error",
+      "examined": 1,
+      "failures": 0,
+      "passed": true,
+      "detail": "DDL declares varchar(10)",
+      "examples": []
+    },
+    {
+      "check": "varchar_length",
+      "target": "cdm_source.vocabulary_version",
+      "severity": "error",
+      "examined": 1,
+      "failures": 0,
+      "passed": true,
+      "detail": "DDL declares varchar(20)",
+      "examples": []
+    },
+    {
+      "check": "primary_key_unique",
+      "target": "location(location_id)",
+      "severity": "error",
+      "examined": 278,
+      "failures": 0,
+      "passed": true,
+      "detail": "primary key from OHDSI primary_keys.sql; DuckDB cannot enforce it post-hoc, so it is asserted here",
+      "examples": []
+    },
+    {
+      "check": "primary_key_unique",
+      "target": "care_site(care_site_id)",
+      "severity": "error",
+      "examined": 278,
+      "failures": 0,
+      "passed": true,
+      "detail": "primary key from OHDSI primary_keys.sql; DuckDB cannot enforce it post-hoc, so it is asserted here",
+      "examples": []
+    },
+    {
+      "check": "primary_key_unique",
+      "target": "provider(provider_id)",
+      "severity": "error",
+      "examined": 278,
+      "failures": 0,
+      "passed": true,
+      "detail": "primary key from OHDSI primary_keys.sql; DuckDB cannot enforce it post-hoc, so it is asserted here",
+      "examples": []
+    },
+    {
+      "check": "primary_key_unique",
+      "target": "person(person_id)",
+      "severity": "error",
+      "examined": 8,
+      "failures": 0,
+      "passed": true,
+      "detail": "primary key from OHDSI primary_keys.sql; DuckDB cannot enforce it post-hoc, so it is asserted here",
+      "examples": []
+    },
+    {
+      "check": "primary_key_unique",
+      "target": "observation_period(observation_period_id)",
+      "severity": "error",
+      "examined": 7,
+      "failures": 0,
+      "passed": true,
+      "detail": "primary key from OHDSI primary_keys.sql; DuckDB cannot enforce it post-hoc, so it is asserted here",
+      "examples": []
+    },
+    {
+      "check": "primary_key_unique",
+      "target": "visit_occurrence(visit_occurrence_id)",
+      "severity": "error",
+      "examined": 77,
+      "failures": 0,
+      "passed": true,
+      "detail": "primary key from OHDSI primary_keys.sql; DuckDB cannot enforce it post-hoc, so it is asserted here",
+      "examples": []
+    },
+    {
+      "check": "primary_key_unique",
+      "target": "condition_occurrence(condition_occurrence_id)",
+      "severity": "error",
+      "examined": 71,
+      "failures": 0,
+      "passed": true,
+      "detail": "primary key from OHDSI primary_keys.sql; DuckDB cannot enforce it post-hoc, so it is asserted here",
+      "examples": []
+    },
+    {
+      "check": "primary_key_unique",
+      "target": "procedure_occurrence(procedure_occurrence_id)",
+      "severity": "error",
+      "examined": 159,
+      "failures": 0,
+      "passed": true,
+      "detail": "primary key from OHDSI primary_keys.sql; DuckDB cannot enforce it post-hoc, so it is asserted here",
+      "examples": []
+    },
+    {
+      "check": "primary_key_unique",
+      "target": "drug_exposure(drug_exposure_id)",
+      "severity": "error",
+      "examined": 91,
+      "failures": 0,
+      "passed": true,
+      "detail": "primary key from OHDSI primary_keys.sql; DuckDB cannot enforce it post-hoc, so it is asserted here",
+      "examples": []
+    },
+    {
+      "check": "primary_key_unique",
+      "target": "measurement(measurement_id)",
+      "severity": "error",
+      "examined": 512,
+      "failures": 0,
+      "passed": true,
+      "detail": "primary key from OHDSI primary_keys.sql; DuckDB cannot enforce it post-hoc, so it is asserted here",
+      "examples": []
+    },
+    {
+      "check": "primary_key_unique",
+      "target": "observation(observation_id)",
+      "severity": "error",
+      "examined": 348,
+      "failures": 0,
+      "passed": true,
+      "detail": "primary key from OHDSI primary_keys.sql; DuckDB cannot enforce it post-hoc, so it is asserted here",
+      "examples": []
+    },
+    {
+      "check": "foreign_key_closure",
+      "target": "person.location_id -> location.location_id",
+      "severity": "error",
+      "examined": 8,
+      "failures": 0,
+      "passed": true,
+      "detail": "foreign key from OHDSI constraints.sql",
+      "examples": []
+    },
+    {
+      "check": "foreign_key_closure",
+      "target": "person.provider_id -> provider.provider_id",
+      "severity": "error",
+      "examined": 8,
+      "failures": 0,
+      "passed": true,
+      "detail": "foreign key from OHDSI constraints.sql",
+      "examples": []
+    },
+    {
+      "check": "foreign_key_closure",
+      "target": "person.care_site_id -> care_site.care_site_id",
+      "severity": "error",
+      "examined": 8,
+      "failures": 0,
+      "passed": true,
+      "detail": "foreign key from OHDSI constraints.sql",
+      "examples": []
+    },
+    {
+      "check": "foreign_key_closure",
+      "target": "observation_period.person_id -> person.person_id",
+      "severity": "error",
+      "examined": 7,
+      "failures": 0,
+      "passed": true,
+      "detail": "foreign key from OHDSI constraints.sql",
+      "examples": []
+    },
+    {
+      "check": "foreign_key_closure",
+      "target": "visit_occurrence.person_id -> person.person_id",
+      "severity": "error",
+      "examined": 77,
+      "failures": 0,
+      "passed": true,
+      "detail": "foreign key from OHDSI constraints.sql",
+      "examples": []
+    },
+    {
+      "check": "foreign_key_closure",
+      "target": "visit_occurrence.provider_id -> provider.provider_id",
+      "severity": "error",
+      "examined": 77,
+      "failures": 0,
+      "passed": true,
+      "detail": "foreign key from OHDSI constraints.sql",
+      "examples": []
+    },
+    {
+      "check": "foreign_key_closure",
+      "target": "visit_occurrence.care_site_id -> care_site.care_site_id",
+      "severity": "error",
+      "examined": 77,
+      "failures": 0,
+      "passed": true,
+      "detail": "foreign key from OHDSI constraints.sql",
+      "examples": []
+    },
+    {
+      "check": "foreign_key_closure",
+      "target": "visit_occurrence.preceding_visit_occurrence_id -> visit_occurrence.visit_occurrence_id",
+      "severity": "error",
+      "examined": 77,
+      "failures": 0,
+      "passed": true,
+      "detail": "foreign key from OHDSI constraints.sql",
+      "examples": []
+    },
+    {
+      "check": "foreign_key_closure",
+      "target": "condition_occurrence.person_id -> person.person_id",
+      "severity": "error",
+      "examined": 71,
+      "failures": 0,
+      "passed": true,
+      "detail": "foreign key from OHDSI constraints.sql",
+      "examples": []
+    },
+    {
+      "check": "foreign_key_closure",
+      "target": "condition_occurrence.provider_id -> provider.provider_id",
+      "severity": "error",
+      "examined": 71,
+      "failures": 0,
+      "passed": true,
+      "detail": "foreign key from OHDSI constraints.sql",
+      "examples": []
+    },
+    {
+      "check": "foreign_key_closure",
+      "target": "condition_occurrence.visit_occurrence_id -> visit_occurrence.visit_occurrence_id",
+      "severity": "error",
+      "examined": 71,
+      "failures": 0,
+      "passed": true,
+      "detail": "foreign key from OHDSI constraints.sql",
+      "examples": []
+    },
+    {
+      "check": "foreign_key_closure",
+      "target": "drug_exposure.person_id -> person.person_id",
+      "severity": "error",
+      "examined": 91,
+      "failures": 0,
+      "passed": true,
+      "detail": "foreign key from OHDSI constraints.sql",
+      "examples": []
+    },
+    {
+      "check": "foreign_key_closure",
+      "target": "drug_exposure.provider_id -> provider.provider_id",
+      "severity": "error",
+      "examined": 91,
+      "failures": 0,
+      "passed": true,
+      "detail": "foreign key from OHDSI constraints.sql",
+      "examples": []
+    },
+    {
+      "check": "foreign_key_closure",
+      "target": "drug_exposure.visit_occurrence_id -> visit_occurrence.visit_occurrence_id",
+      "severity": "error",
+      "examined": 91,
+      "failures": 0,
+      "passed": true,
+      "detail": "foreign key from OHDSI constraints.sql",
+      "examples": []
+    },
+    {
+      "check": "foreign_key_closure",
+      "target": "procedure_occurrence.person_id -> person.person_id",
+      "severity": "error",
+      "examined": 159,
+      "failures": 0,
+      "passed": true,
+      "detail": "foreign key from OHDSI constraints.sql",
+      "examples": []
+    },
+    {
+      "check": "foreign_key_closure",
+      "target": "procedure_occurrence.provider_id -> provider.provider_id",
+      "severity": "error",
+      "examined": 159,
+      "failures": 0,
+      "passed": true,
+      "detail": "foreign key from OHDSI constraints.sql",
+      "examples": []
+    },
+    {
+      "check": "foreign_key_closure",
+      "target": "procedure_occurrence.visit_occurrence_id -> visit_occurrence.visit_occurrence_id",
+      "severity": "error",
+      "examined": 159,
+      "failures": 0,
+      "passed": true,
+      "detail": "foreign key from OHDSI constraints.sql",
+      "examples": []
+    },
+    {
+      "check": "foreign_key_closure",
+      "target": "measurement.person_id -> person.person_id",
+      "severity": "error",
+      "examined": 512,
+      "failures": 0,
+      "passed": true,
+      "detail": "foreign key from OHDSI constraints.sql",
+      "examples": []
+    },
+    {
+      "check": "foreign_key_closure",
+      "target": "measurement.provider_id -> provider.provider_id",
+      "severity": "error",
+      "examined": 512,
+      "failures": 0,
+      "passed": true,
+      "detail": "foreign key from OHDSI constraints.sql",
+      "examples": []
+    },
+    {
+      "check": "foreign_key_closure",
+      "target": "measurement.visit_occurrence_id -> visit_occurrence.visit_occurrence_id",
+      "severity": "error",
+      "examined": 512,
+      "failures": 0,
+      "passed": true,
+      "detail": "foreign key from OHDSI constraints.sql",
+      "examples": []
+    },
+    {
+      "check": "foreign_key_closure",
+      "target": "observation.person_id -> person.person_id",
+      "severity": "error",
+      "examined": 348,
+      "failures": 0,
+      "passed": true,
+      "detail": "foreign key from OHDSI constraints.sql",
+      "examples": []
+    },
+    {
+      "check": "foreign_key_closure",
+      "target": "observation.provider_id -> provider.provider_id",
+      "severity": "error",
+      "examined": 348,
+      "failures": 0,
+      "passed": true,
+      "detail": "foreign key from OHDSI constraints.sql",
+      "examples": []
+    },
+    {
+      "check": "foreign_key_closure",
+      "target": "observation.visit_occurrence_id -> visit_occurrence.visit_occurrence_id",
+      "severity": "error",
+      "examined": 348,
+      "failures": 0,
+      "passed": true,
+      "detail": "foreign key from OHDSI constraints.sql",
+      "examples": []
+    },
+    {
+      "check": "foreign_key_closure",
+      "target": "death.person_id -> person.person_id",
+      "severity": "error",
+      "examined": 1,
+      "failures": 0,
+      "passed": true,
+      "detail": "foreign key from OHDSI constraints.sql",
+      "examples": []
+    },
+    {
+      "check": "foreign_key_closure",
+      "target": "care_site.location_id -> location.location_id",
+      "severity": "error",
+      "examined": 278,
+      "failures": 0,
+      "passed": true,
+      "detail": "foreign key from OHDSI constraints.sql",
+      "examples": []
+    },
+    {
+      "check": "foreign_key_closure",
+      "target": "provider.care_site_id -> care_site.care_site_id",
+      "severity": "error",
+      "examined": 278,
+      "failures": 0,
+      "passed": true,
+      "detail": "foreign key from OHDSI constraints.sql",
+      "examples": []
+    },
+    {
+      "check": "foreign_key_not_applicable",
+      "target": "concept, visit_detail",
+      "severity": "info",
+      "examined": 0,
+      "failures": 0,
+      "passed": true,
+      "detail": "referenced tables this bridge does not populate (vocabulary tables are licence-gated); see concept_id_declared for what is checked instead",
+      "examples": []
+    },
+    {
+      "check": "concept_id_declared",
+      "target": "location.country_concept_id",
+      "severity": "error",
+      "examined": 0,
+      "failures": 0,
+      "passed": true,
+      "detail": "every non-zero concept_id must come from the committed concept map or the verified constants",
+      "examples": []
+    },
+    {
+      "check": "concept_id_declared",
+      "target": "care_site.place_of_service_concept_id",
+      "severity": "error",
+      "examined": 0,
+      "failures": 0,
+      "passed": true,
+      "detail": "every non-zero concept_id must come from the committed concept map or the verified constants",
+      "examples": []
+    },
+    {
+      "check": "concept_id_declared",
+      "target": "provider.specialty_concept_id",
+      "severity": "error",
+      "examined": 0,
+      "failures": 0,
+      "passed": true,
+      "detail": "every non-zero concept_id must come from the committed concept map or the verified constants",
+      "examples": []
+    },
+    {
+      "check": "concept_id_declared",
+      "target": "provider.gender_concept_id",
+      "severity": "error",
+      "examined": 2,
+      "failures": 0,
+      "passed": true,
+      "detail": "every non-zero concept_id must come from the committed concept map or the verified constants",
+      "examples": []
+    },
+    {
+      "check": "concept_id_declared",
+      "target": "provider.specialty_source_concept_id",
+      "severity": "error",
+      "examined": 0,
+      "failures": 0,
+      "passed": true,
+      "detail": "every non-zero concept_id must come from the committed concept map or the verified constants",
+      "examples": []
+    },
+    {
+      "check": "concept_id_declared",
+      "target": "provider.gender_source_concept_id",
+      "severity": "error",
+      "examined": 0,
+      "failures": 0,
+      "passed": true,
+      "detail": "every non-zero concept_id must come from the committed concept map or the verified constants",
+      "examples": []
+    },
+    {
+      "check": "concept_id_declared",
+      "target": "person.gender_concept_id",
+      "severity": "error",
+      "examined": 2,
+      "failures": 0,
+      "passed": true,
+      "detail": "every non-zero concept_id must come from the committed concept map or the verified constants",
+      "examples": []
+    },
+    {
+      "check": "concept_id_declared",
+      "target": "person.race_concept_id",
+      "severity": "error",
+      "examined": 2,
+      "failures": 0,
+      "passed": true,
+      "detail": "every non-zero concept_id must come from the committed concept map or the verified constants",
+      "examples": []
+    },
+    {
+      "check": "concept_id_declared",
+      "target": "person.ethnicity_concept_id",
+      "severity": "error",
+      "examined": 2,
+      "failures": 0,
+      "passed": true,
+      "detail": "every non-zero concept_id must come from the committed concept map or the verified constants",
+      "examples": []
+    },
+    {
+      "check": "concept_id_declared",
+      "target": "person.gender_source_concept_id",
+      "severity": "error",
+      "examined": 0,
+      "failures": 0,
+      "passed": true,
+      "detail": "every non-zero concept_id must come from the committed concept map or the verified constants",
+      "examples": []
+    },
+    {
+      "check": "concept_id_declared",
+      "target": "person.race_source_concept_id",
+      "severity": "error",
+      "examined": 0,
+      "failures": 0,
+      "passed": true,
+      "detail": "every non-zero concept_id must come from the committed concept map or the verified constants",
+      "examples": []
+    },
+    {
+      "check": "concept_id_declared",
+      "target": "person.ethnicity_source_concept_id",
+      "severity": "error",
+      "examined": 0,
+      "failures": 0,
+      "passed": true,
+      "detail": "every non-zero concept_id must come from the committed concept map or the verified constants",
+      "examples": []
+    },
+    {
+      "check": "concept_id_declared",
+      "target": "observation_period.period_type_concept_id",
+      "severity": "error",
+      "examined": 1,
+      "failures": 0,
+      "passed": true,
+      "detail": "every non-zero concept_id must come from the committed concept map or the verified constants",
+      "examples": []
+    },
+    {
+      "check": "concept_id_declared",
+      "target": "visit_occurrence.visit_concept_id",
+      "severity": "error",
+      "examined": 3,
+      "failures": 0,
+      "passed": true,
+      "detail": "every non-zero concept_id must come from the committed concept map or the verified constants",
+      "examples": []
+    },
+    {
+      "check": "concept_id_declared",
+      "target": "visit_occurrence.visit_type_concept_id",
+      "severity": "error",
+      "examined": 1,
+      "failures": 0,
+      "passed": true,
+      "detail": "every non-zero concept_id must come from the committed concept map or the verified constants",
+      "examples": []
+    },
+    {
+      "check": "concept_id_declared",
+      "target": "visit_occurrence.visit_source_concept_id",
+      "severity": "error",
+      "examined": 0,
+      "failures": 0,
+      "passed": true,
+      "detail": "every non-zero concept_id must come from the committed concept map or the verified constants",
+      "examples": []
+    },
+    {
+      "check": "concept_id_declared",
+      "target": "visit_occurrence.admitted_from_concept_id",
+      "severity": "error",
+      "examined": 0,
+      "failures": 0,
+      "passed": true,
+      "detail": "every non-zero concept_id must come from the committed concept map or the verified constants",
+      "examples": []
+    },
+    {
+      "check": "concept_id_declared",
+      "target": "visit_occurrence.discharged_to_concept_id",
+      "severity": "error",
+      "examined": 0,
+      "failures": 0,
+      "passed": true,
+      "detail": "every non-zero concept_id must come from the committed concept map or the verified constants",
+      "examples": []
+    },
+    {
+      "check": "concept_id_declared",
+      "target": "condition_occurrence.condition_concept_id",
+      "severity": "error",
+      "examined": 30,
+      "failures": 0,
+      "passed": true,
+      "detail": "every non-zero concept_id must come from the committed concept map or the verified constants",
+      "examples": []
+    },
+    {
+      "check": "concept_id_declared",
+      "target": "condition_occurrence.condition_type_concept_id",
+      "severity": "error",
+      "examined": 1,
+      "failures": 0,
+      "passed": true,
+      "detail": "every non-zero concept_id must come from the committed concept map or the verified constants",
+      "examples": []
+    },
+    {
+      "check": "concept_id_declared",
+      "target": "condition_occurrence.condition_status_concept_id",
+      "severity": "error",
+      "examined": 0,
+      "failures": 0,
+      "passed": true,
+      "detail": "every non-zero concept_id must come from the committed concept map or the verified constants",
+      "examples": []
+    },
+    {
+      "check": "concept_id_declared",
+      "target": "condition_occurrence.condition_source_concept_id",
+      "severity": "error",
+      "examined": 30,
+      "failures": 0,
+      "passed": true,
+      "detail": "every non-zero concept_id must come from the committed concept map or the verified constants",
+      "examples": []
+    },
+    {
+      "check": "concept_id_declared",
+      "target": "procedure_occurrence.procedure_concept_id",
+      "severity": "error",
+      "examined": 23,
+      "failures": 0,
+      "passed": true,
+      "detail": "every non-zero concept_id must come from the committed concept map or the verified constants",
+      "examples": []
+    },
+    {
+      "check": "concept_id_declared",
+      "target": "procedure_occurrence.procedure_type_concept_id",
+      "severity": "error",
+      "examined": 1,
+      "failures": 0,
+      "passed": true,
+      "detail": "every non-zero concept_id must come from the committed concept map or the verified constants",
+      "examples": []
+    },
+    {
+      "check": "concept_id_declared",
+      "target": "procedure_occurrence.modifier_concept_id",
+      "severity": "error",
+      "examined": 0,
+      "failures": 0,
+      "passed": true,
+      "detail": "every non-zero concept_id must come from the committed concept map or the verified constants",
+      "examples": []
+    },
+    {
+      "check": "concept_id_declared",
+      "target": "procedure_occurrence.procedure_source_concept_id",
+      "severity": "error",
+      "examined": 23,
+      "failures": 0,
+      "passed": true,
+      "detail": "every non-zero concept_id must come from the committed concept map or the verified constants",
+      "examples": []
+    },
+    {
+      "check": "concept_id_declared",
+      "target": "drug_exposure.drug_concept_id",
+      "severity": "error",
+      "examined": 20,
+      "failures": 0,
+      "passed": true,
+      "detail": "every non-zero concept_id must come from the committed concept map or the verified constants",
+      "examples": []
+    },
+    {
+      "check": "concept_id_declared",
+      "target": "drug_exposure.drug_type_concept_id",
+      "severity": "error",
+      "examined": 2,
+      "failures": 0,
+      "passed": true,
+      "detail": "every non-zero concept_id must come from the committed concept map or the verified constants",
+      "examples": []
+    },
+    {
+      "check": "concept_id_declared",
+      "target": "drug_exposure.route_concept_id",
+      "severity": "error",
+      "examined": 0,
+      "failures": 0,
+      "passed": true,
+      "detail": "every non-zero concept_id must come from the committed concept map or the verified constants",
+      "examples": []
+    },
+    {
+      "check": "concept_id_declared",
+      "target": "drug_exposure.drug_source_concept_id",
+      "severity": "error",
+      "examined": 20,
+      "failures": 0,
+      "passed": true,
+      "detail": "every non-zero concept_id must come from the committed concept map or the verified constants",
+      "examples": []
+    },
+    {
+      "check": "concept_id_declared",
+      "target": "measurement.measurement_concept_id",
+      "severity": "error",
+      "examined": 39,
+      "failures": 0,
+      "passed": true,
+      "detail": "every non-zero concept_id must come from the committed concept map or the verified constants",
+      "examples": []
+    },
+    {
+      "check": "concept_id_declared",
+      "target": "measurement.measurement_type_concept_id",
+      "severity": "error",
+      "examined": 1,
+      "failures": 0,
+      "passed": true,
+      "detail": "every non-zero concept_id must come from the committed concept map or the verified constants",
+      "examples": []
+    },
+    {
+      "check": "concept_id_declared",
+      "target": "measurement.operator_concept_id",
+      "severity": "error",
+      "examined": 0,
+      "failures": 0,
+      "passed": true,
+      "detail": "every non-zero concept_id must come from the committed concept map or the verified constants",
+      "examples": []
+    },
+    {
+      "check": "concept_id_declared",
+      "target": "measurement.value_as_concept_id",
+      "severity": "error",
+      "examined": 1,
+      "failures": 0,
+      "passed": true,
+      "detail": "every non-zero concept_id must come from the committed concept map or the verified constants",
+      "examples": []
+    },
+    {
+      "check": "concept_id_declared",
+      "target": "measurement.unit_concept_id",
+      "severity": "error",
+      "examined": 15,
+      "failures": 0,
+      "passed": true,
+      "detail": "every non-zero concept_id must come from the committed concept map or the verified constants",
+      "examples": []
+    },
+    {
+      "check": "concept_id_declared",
+      "target": "measurement.measurement_source_concept_id",
+      "severity": "error",
+      "examined": 39,
+      "failures": 0,
+      "passed": true,
+      "detail": "every non-zero concept_id must come from the committed concept map or the verified constants",
+      "examples": []
+    },
+    {
+      "check": "concept_id_declared",
+      "target": "measurement.unit_source_concept_id",
+      "severity": "error",
+      "examined": 0,
+      "failures": 0,
+      "passed": true,
+      "detail": "every non-zero concept_id must come from the committed concept map or the verified constants",
+      "examples": []
+    },
+    {
+      "check": "concept_id_declared",
+      "target": "measurement.meas_event_field_concept_id",
+      "severity": "error",
+      "examined": 0,
+      "failures": 0,
+      "passed": true,
+      "detail": "every non-zero concept_id must come from the committed concept map or the verified constants",
+      "examples": []
+    },
+    {
+      "check": "concept_id_declared",
+      "target": "observation.observation_concept_id",
+      "severity": "error",
+      "examined": 32,
+      "failures": 0,
+      "passed": true,
+      "detail": "every non-zero concept_id must come from the committed concept map or the verified constants",
+      "examples": []
+    },
+    {
+      "check": "concept_id_declared",
+      "target": "observation.observation_type_concept_id",
+      "severity": "error",
+      "examined": 1,
+      "failures": 0,
+      "passed": true,
+      "detail": "every non-zero concept_id must come from the committed concept map or the verified constants",
+      "examples": []
+    },
+    {
+      "check": "concept_id_declared",
+      "target": "observation.value_as_concept_id",
+      "severity": "error",
+      "examined": 25,
+      "failures": 0,
+      "passed": true,
+      "detail": "every non-zero concept_id must come from the committed concept map or the verified constants",
+      "examples": []
+    },
+    {
+      "check": "concept_id_declared",
+      "target": "observation.qualifier_concept_id",
+      "severity": "error",
+      "examined": 0,
+      "failures": 0,
+      "passed": true,
+      "detail": "every non-zero concept_id must come from the committed concept map or the verified constants",
+      "examples": []
+    },
+    {
+      "check": "concept_id_declared",
+      "target": "observation.unit_concept_id",
+      "severity": "error",
+      "examined": 0,
+      "failures": 0,
+      "passed": true,
+      "detail": "every non-zero concept_id must come from the committed concept map or the verified constants",
+      "examples": []
+    },
+    {
+      "check": "concept_id_declared",
+      "target": "observation.observation_source_concept_id",
+      "severity": "error",
+      "examined": 32,
+      "failures": 0,
+      "passed": true,
+      "detail": "every non-zero concept_id must come from the committed concept map or the verified constants",
+      "examples": []
+    },
+    {
+      "check": "concept_id_declared",
+      "target": "observation.obs_event_field_concept_id",
+      "severity": "error",
+      "examined": 0,
+      "failures": 0,
+      "passed": true,
+      "detail": "every non-zero concept_id must come from the committed concept map or the verified constants",
+      "examples": []
+    },
+    {
+      "check": "concept_id_declared",
+      "target": "death.death_type_concept_id",
+      "severity": "error",
+      "examined": 1,
+      "failures": 0,
+      "passed": true,
+      "detail": "every non-zero concept_id must come from the committed concept map or the verified constants",
+      "examples": []
+    },
+    {
+      "check": "concept_id_declared",
+      "target": "death.cause_concept_id",
+      "severity": "error",
+      "examined": 0,
+      "failures": 0,
+      "passed": true,
+      "detail": "every non-zero concept_id must come from the committed concept map or the verified constants",
+      "examples": []
+    },
+    {
+      "check": "concept_id_declared",
+      "target": "death.cause_source_concept_id",
+      "severity": "error",
+      "examined": 0,
+      "failures": 0,
+      "passed": true,
+      "detail": "every non-zero concept_id must come from the committed concept map or the verified constants",
+      "examples": []
+    },
+    {
+      "check": "concept_id_declared",
+      "target": "cdm_source.cdm_version_concept_id",
+      "severity": "error",
+      "examined": 1,
+      "failures": 0,
+      "passed": true,
+      "detail": "every non-zero concept_id must come from the committed concept map or the verified constants",
+      "examples": []
+    },
+    {
+      "check": "temporal_order",
+      "target": "observation_period.observation_period_start_date <= observation_period_end_date",
+      "severity": "error",
+      "examined": 7,
+      "failures": 0,
+      "passed": true,
+      "detail": "end date must not precede start date",
+      "examples": []
+    },
+    {
+      "check": "temporal_order",
+      "target": "visit_occurrence.visit_start_date <= visit_end_date",
+      "severity": "error",
+      "examined": 77,
+      "failures": 0,
+      "passed": true,
+      "detail": "end date must not precede start date",
+      "examples": []
+    },
+    {
+      "check": "temporal_order",
+      "target": "condition_occurrence.condition_start_date <= condition_end_date",
+      "severity": "error",
+      "examined": 71,
+      "failures": 0,
+      "passed": true,
+      "detail": "end date must not precede start date",
+      "examples": []
+    },
+    {
+      "check": "temporal_order",
+      "target": "drug_exposure.drug_exposure_start_date <= drug_exposure_end_date",
+      "severity": "error",
+      "examined": 91,
+      "failures": 0,
+      "passed": true,
+      "detail": "end date must not precede start date",
+      "examples": []
+    },
+    {
+      "check": "temporal_order",
+      "target": "procedure_occurrence.procedure_date <= procedure_end_date",
+      "severity": "error",
+      "examined": 159,
+      "failures": 0,
+      "passed": true,
+      "detail": "end date must not precede start date",
+      "examples": []
+    },
+    {
+      "check": "event_after_birth",
+      "target": "visit_occurrence.visit_start_date",
+      "severity": "error",
+      "examined": 77,
+      "failures": 0,
+      "passed": true,
+      "detail": "a clinical event cannot precede the patient's date of birth",
+      "examples": []
+    },
+    {
+      "check": "event_after_birth",
+      "target": "condition_occurrence.condition_start_date",
+      "severity": "error",
+      "examined": 71,
+      "failures": 0,
+      "passed": true,
+      "detail": "a clinical event cannot precede the patient's date of birth",
+      "examples": []
+    },
+    {
+      "check": "event_after_birth",
+      "target": "procedure_occurrence.procedure_date",
+      "severity": "error",
+      "examined": 159,
+      "failures": 0,
+      "passed": true,
+      "detail": "a clinical event cannot precede the patient's date of birth",
+      "examples": []
+    },
+    {
+      "check": "event_after_birth",
+      "target": "drug_exposure.drug_exposure_start_date",
+      "severity": "error",
+      "examined": 91,
+      "failures": 0,
+      "passed": true,
+      "detail": "a clinical event cannot precede the patient's date of birth",
+      "examples": []
+    },
+    {
+      "check": "event_after_birth",
+      "target": "measurement.measurement_date",
+      "severity": "error",
+      "examined": 512,
+      "failures": 0,
+      "passed": true,
+      "detail": "a clinical event cannot precede the patient's date of birth",
+      "examples": []
+    },
+    {
+      "check": "event_after_birth",
+      "target": "observation.observation_date",
+      "severity": "error",
+      "examined": 348,
+      "failures": 0,
+      "passed": true,
+      "detail": "a clinical event cannot precede the patient's date of birth",
+      "examples": []
+    },
+    {
+      "check": "event_within_observation_period",
+      "target": "visit_occurrence.visit_start_date",
+      "severity": "error",
+      "examined": 77,
+      "failures": 0,
+      "passed": true,
+      "detail": "OBSERVATION_PERIOD is derived from these events, so an event outside it means the derivation is wrong",
+      "examples": []
+    },
+    {
+      "check": "event_within_observation_period",
+      "target": "condition_occurrence.condition_start_date",
+      "severity": "error",
+      "examined": 71,
+      "failures": 0,
+      "passed": true,
+      "detail": "OBSERVATION_PERIOD is derived from these events, so an event outside it means the derivation is wrong",
+      "examples": []
+    },
+    {
+      "check": "event_within_observation_period",
+      "target": "procedure_occurrence.procedure_date",
+      "severity": "error",
+      "examined": 159,
+      "failures": 0,
+      "passed": true,
+      "detail": "OBSERVATION_PERIOD is derived from these events, so an event outside it means the derivation is wrong",
+      "examples": []
+    },
+    {
+      "check": "event_within_observation_period",
+      "target": "drug_exposure.drug_exposure_start_date",
+      "severity": "error",
+      "examined": 91,
+      "failures": 0,
+      "passed": true,
+      "detail": "OBSERVATION_PERIOD is derived from these events, so an event outside it means the derivation is wrong",
+      "examples": []
+    },
+    {
+      "check": "event_within_observation_period",
+      "target": "measurement.measurement_date",
+      "severity": "error",
+      "examined": 512,
+      "failures": 0,
+      "passed": true,
+      "detail": "OBSERVATION_PERIOD is derived from these events, so an event outside it means the derivation is wrong",
+      "examples": []
+    },
+    {
+      "check": "event_within_observation_period",
+      "target": "observation.observation_date",
+      "severity": "error",
+      "examined": 348,
+      "failures": 0,
+      "passed": true,
+      "detail": "OBSERVATION_PERIOD is derived from these events, so an event outside it means the derivation is wrong",
+      "examples": []
+    },
+    {
+      "check": "visit_person_consistency",
+      "target": "condition_occurrence.visit_occurrence_id",
+      "severity": "error",
+      "examined": 71,
+      "failures": 0,
+      "passed": true,
+      "detail": "an event's visit must belong to the same person as the event",
+      "examples": []
+    },
+    {
+      "check": "visit_person_consistency",
+      "target": "procedure_occurrence.visit_occurrence_id",
+      "severity": "error",
+      "examined": 159,
+      "failures": 0,
+      "passed": true,
+      "detail": "an event's visit must belong to the same person as the event",
+      "examples": []
+    },
+    {
+      "check": "visit_person_consistency",
+      "target": "drug_exposure.visit_occurrence_id",
+      "severity": "error",
+      "examined": 91,
+      "failures": 0,
+      "passed": true,
+      "detail": "an event's visit must belong to the same person as the event",
+      "examples": []
+    },
+    {
+      "check": "visit_person_consistency",
+      "target": "measurement.visit_occurrence_id",
+      "severity": "error",
+      "examined": 512,
+      "failures": 0,
+      "passed": true,
+      "detail": "an event's visit must belong to the same person as the event",
+      "examples": []
+    },
+    {
+      "check": "visit_person_consistency",
+      "target": "observation.visit_occurrence_id",
+      "severity": "error",
+      "examined": 348,
+      "failures": 0,
+      "passed": true,
+      "detail": "an event's visit must belong to the same person as the event",
+      "examples": []
+    },
+    {
+      "check": "death_not_before_last_event",
+      "target": "death.death_date",
+      "severity": "warning",
+      "examined": 1,
+      "failures": 1,
+      "passed": false,
+      "detail": "post-mortem events are legitimate in some feeds (late-arriving results), so this is a warning rather than an error",
+      "examples": []
+    },
+    {
+      "check": "person_has_observation_period",
+      "target": "person.person_id",
+      "severity": "warning",
+      "examined": 8,
+      "failures": 1,
+      "passed": false,
+      "detail": "a person with no clinical event has no observation period and cannot enter an OHDSI cohort; not fabricated, reported",
+      "examples": []
+    }
+  ]
+}

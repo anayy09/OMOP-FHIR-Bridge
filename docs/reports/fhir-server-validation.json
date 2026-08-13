@@ -1,0 +1,98 @@
+{
+  "endpoint": "http://localhost:8080/fhir",
+  "server": {
+    "reachable": true,
+    "fhirVersion": "4.0.1",
+    "software": "HAPI FHIR Server",
+    "softwareVersion": "8.0.0"
+  },
+  "by_type": {
+    "Condition": {
+      "validated": 71,
+      "passed": 71,
+      "failed": 0
+    },
+    "Encounter": {
+      "validated": 77,
+      "passed": 77,
+      "failed": 0
+    },
+    "Immunization": {
+      "validated": 63,
+      "passed": 63,
+      "failed": 0
+    },
+    "MedicationRequest": {
+      "validated": 28,
+      "passed": 28,
+      "failed": 0
+    },
+    "Observation": {
+      "validated": 860,
+      "passed": 860,
+      "failed": 0
+    },
+    "Organization": {
+      "validated": 278,
+      "passed": 278,
+      "failed": 0
+    },
+    "Patient": {
+      "validated": 8,
+      "passed": 8,
+      "failed": 0
+    },
+    "Practitioner": {
+      "validated": 278,
+      "passed": 278,
+      "failed": 0
+    },
+    "Procedure": {
+      "validated": 159,
+      "passed": 159,
+      "failed": 0
+    }
+  },
+  "severity_totals": {
+    "information": 14,
+    "warning": 2775
+  },
+  "failures": [],
+  "top_non_blocking_issues": [
+    {
+      "diagnostics": "Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/Struc",
+      "occurrences": 1822
+    },
+    {
+      "diagnostics": "Best Practice Recommendation: In general, all observations should have a performer",
+      "occurrences": 860
+    },
+    {
+      "diagnostics": "UCUM Codes that contain human readable annotations like {score} can be misleading (e.g. they are ignored when comparing ",
+      "occurrences": 74
+    },
+    {
+      "diagnostics": "UCUM Codes that contain human readable annotations like {#} can be misleading (e.g. they are ignored when comparing unit",
+      "occurrences": 13
+    },
+    {
+      "diagnostics": "Unknown extension http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+      "occurrences": 7
+    },
+    {
+      "diagnostics": "Unknown extension http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity",
+      "occurrences": 7
+    },
+    {
+      "diagnostics": "UCUM Codes that contain human readable annotations like {1.73_m2} can be misleading (e.g. they are ignored when comparin",
+      "occurrences": 4
+    },
+    {
+      "diagnostics": "Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provi",
+      "occurrences": 2
+    }
+  ],
+  "total_validated": 1822,
+  "total_passed": 1822,
+  "total_failed": 0
+}

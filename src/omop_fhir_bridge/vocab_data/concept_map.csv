@@ -1,0 +1,226 @@
+# generated_by: scripts/build_concept_map.py
+# generated_on: 2026-08-12
+# vocabulary_source: OHDSI WebAPI 2.14.0
+# vocabulary_service: https://atlas-demo.ohdsi.org/WebAPI
+# source_corpus: data/fhir
+# distinct_codings: 217
+# resolution_counts: {"source_only": 11, "standard": 202, "unresolved": 4}
+# licence_note: Derived from the OHDSI standardised vocabularies via a public WebAPI instance. Only the codes present in this repository's sample data are included. The vocabulary itself is licence-gated and is not redistributed here.
+source_system,source_code,source_display,source_concept_id,target_concept_id,target_concept_name,target_domain_id,target_vocabulary_id,target_standard_concept,resolution,resolved_at,resolver
+http://hl7.org/fhir/sid/cvx,08,"Hep B, adolescent or pediatric",40213304,40213304,"hepatitis B vaccine, pediatric or pediatric/adolescent dosage",Drug,CVX,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://hl7.org/fhir/sid/cvx,10,IPV,40213160,40213160,"poliovirus vaccine, inactivated",Drug,CVX,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://hl7.org/fhir/sid/cvx,113,"Td (adult), 5 Lf tetanus toxoid, preservative free, adsorbed",40213227,40213227,"tetanus and diphtheria toxoids, adsorbed, preservative free, for adult use (5 Lf of tetanus toxoid and 2 Lf of diphtheria toxoid)",Drug,CVX,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://hl7.org/fhir/sid/cvx,114,meningococcal MCV4P,40213180,40213180,"meningococcal polysaccharide (groups A, C, Y and W-135) diphtheria toxoid conjugate vaccine (MCV4P)",Drug,CVX,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://hl7.org/fhir/sid/cvx,115,Tdap,40213230,40213230,"tetanus toxoid, reduced diphtheria toxoid, and acellular pertussis vaccine, adsorbed",Drug,CVX,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://hl7.org/fhir/sid/cvx,119,"rotavirus, monovalent",40213216,40213216,"rotavirus, live, monovalent vaccine",Drug,CVX,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://hl7.org/fhir/sid/cvx,133,Pneumococcal conjugate PCV 13,40213198,40213198,"pneumococcal conjugate vaccine, 13 valent",Drug,CVX,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://hl7.org/fhir/sid/cvx,140,"Influenza, split virus, trivalent, PF",40213154,40213154,"Influenza, split virus, trivalent, injectable, preservative free",Drug,CVX,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://hl7.org/fhir/sid/cvx,20,DTaP,40213281,40213281,"diphtheria, tetanus toxoids and acellular pertussis vaccine",Drug,CVX,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://hl7.org/fhir/sid/cvx,207,"COVID-19, mRNA, LNP-S, PF, 100 mcg/0.5mL dose or 50 mcg/0.25mL dose",724906,0,,,CVX,,source_only,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://hl7.org/fhir/sid/cvx,208,"COVID-19, mRNA, LNP-S, PF, 30 mcg/0.3 mL dose",724907,0,,,CVX,,source_only,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://hl7.org/fhir/sid/cvx,49,Hib (PRP-OMP),40213314,40213314,"Haemophilus influenzae type b vaccine, PRP-OMP conjugate",Drug,CVX,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://hl7.org/fhir/sid/cvx,62,"HPV, quadrivalent",40213320,40213320,"human papilloma virus vaccine, quadrivalent",Drug,CVX,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,14959-1,Microalbumin/Creatinine [Mass Ratio] in Urine,3001802,3001802,Microalbumin/Creatinine [Mass Ratio] in Urine,Measurement,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,18262-6,Cholesterol in LDL [Mass/volume] in Serum or Plasma by Direct assay,3009966,3009966,Cholesterol in LDL [Mass/volume] in Serum or Plasma by Direct assay,Measurement,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,20565-8,"Carbon dioxide, total [Moles/volume] in Blood",3014094,3014094,"Carbon dioxide, total [Moles/volume] in Blood",Measurement,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,2069-3,Chloride [Moles/volume] in Blood,3018572,3018572,Chloride [Moles/volume] in Blood,Measurement,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,2085-9,Cholesterol in HDL [Mass/volume] in Serum or Plasma,3007070,3007070,Cholesterol in HDL [Mass/volume] in Serum or Plasma,Measurement,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,3027114,3027114,Cholesterol [Mass/volume] in Serum or Plasma,Measurement,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,2339-0,Glucose [Mass/volume] in Blood,3000483,3000483,Glucose [Mass/volume] in Blood,Measurement,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,2571-8,Triglyceride [Mass/volume] in Serum or Plasma,3022192,3022192,Triglyceride [Mass/volume] in Serum or Plasma,Measurement,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,29463-7,Body Weight,3025315,3025315,Body weight,Measurement,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,2947-0,Sodium [Moles/volume] in Blood,3000285,3000285,Sodium [Moles/volume] in Blood,Measurement,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,32207-3,Platelet distribution width [Entitic volume] in Blood by Automated count,3002736,3002736,Platelet distribution width [Entitic volume] in Blood by Automated count,Measurement,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,32623-1,Platelet [Entitic mean volume] in Blood by Automated count,3043111,3043111,Platelet mean volume [Entitic volume] in Blood by Automated count,Measurement,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,32624-9,Race,3046853,3046853,Race,Observation,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,33914-3,Glomerular filtration rate [Volume Rate/Area] in Serum or Plasma by Creatinine-based formula (MDRD)/1.73 sq M,3030354,0,,,LOINC,,source_only,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,38483-4,Creatinine [Mass/volume] in Blood,3051825,3051825,Creatinine [Mass/volume] in Blood,Measurement,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,39156-5,Body mass index (BMI) [Ratio],3038553,3038553,Body mass index (BMI) [Ratio],Measurement,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,4544-3,Hematocrit [Volume Fraction] of Blood by Automated count,3023314,3023314,Hematocrit [Volume Fraction] of Blood by Automated count,Measurement,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood,3004410,3004410,Hemoglobin A1c/Hemoglobin.total in Blood,Measurement,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,49765-1,Calcium [Mass/volume] in Blood,3032503,3032503,Calcium [Mass/volume] in Blood,Measurement,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,54899-0,Preferred language,40758030,40758030,Preferred language,Observation,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,55758-7,Patient Health Questionnaire 2 item (PHQ-2) total score [Reported],40758879,40758879,Patient Health Questionnaire 2 item (PHQ-2) total score [Reported],Observation,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,56051-6,Hispanic or Latino,40759172,40759172,Hispanic or Latino,Observation,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,56799-0,Address,40759918,40759918,Address,Observation,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,59576-9,Body mass index (BMI) [Percentile] Per age and sex,40762638,40762638,Body mass index (BMI) [Percentile] Per age and sex,Measurement,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,6298-4,Potassium [Moles/volume] in Blood,3005456,3005456,Potassium [Moles/volume] in Blood,Measurement,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,6299-2,Urea nitrogen [Mass/volume] in Blood,3004295,3004295,Urea nitrogen [Mass/volume] in Blood,Measurement,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,63512-8,How many people are living or staying at this address [#],40766239,40766239,How many people are living or staying at this address [#],Observation,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,63586-2,"What was your best estimate of the total income of all family members from all sources, before taxes, in last year [Phen",40766311,40766311,"What was your best estimate of the total income of all family members from all sources, before taxes, in last year [PhenX]",Observation,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,65750-2,Drugs of abuse 5 panel - Urine by Screen method,40768439,40768439,Drugs of abuse 5 panel - Urine by Screen method,Measurement,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,6690-2,Leukocytes [#/volume] in Blood by Automated count,3000905,3000905,Leukocytes [#/volume] in Blood by Automated count,Measurement,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,67875-5,Employment status - current,40770471,40770471,Employment status - current,Observation,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,69453-9,Cause of Death [US Standard Certificate of Death],40771960,40771960,Cause of death [US Standard Certificate of Death],Observation,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,70274-6,Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ],42868746,42868746,Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ],Observation,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,718-7,Hemoglobin [Mass/volume] in Blood,3000963,3000963,Hemoglobin [Mass/volume] in Blood,Measurement,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,71802-3,Housing status,42869557,42869557,Housing status,Observation,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,72166-2,Tobacco smoking status,43054909,43054909,Tobacco smoking status,Observation,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,72514-3,Pain severity - 0-10 verbal numeric rating [Score] - Reported,43055141,43055141,Pain severity - 0-10 verbal numeric rating [Score] - Reported,Measurement,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,75626-2,Total score [AUDIT-C],46235357,46235357,Total score [AUDIT-C],Observation,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,75893-8,Pain severity in the past week - 0-10 numeric rating [Reported],46235652,46235652,Pain severity in the past week - 0-10 numeric rating [Reported],Observation,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,76437-3,Primary insurance,46235654,46235654,Primary insurance,Observation,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,76501-6,"Within the last year, have you been afraid of your partner or ex-partner",46235507,46235507,"Within the last year, have you been afraid of your partner or ex-partner",Observation,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,76504-0,Total score [HARK],46234808,46234808,Total score [HARK],Observation,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,77606-2,Weight-for-length Per age and sex,46236327,46236327,Weight-for-length Per age and sex,Measurement,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,777-3,Platelets [#/volume] in Blood by Automated count,3024929,3024929,Platelets [#/volume] in Blood by Automated count,Measurement,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,785-6,MCH [Entitic mass] by Automated count,3012030,3012030,MCH [Entitic mass] by Automated count,Measurement,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,786-4,MCHC [Entitic Mass/volume] in Red Blood Cells by Automated count,3009744,3009744,MCHC [Mass/volume] by Automated count,Measurement,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,787-2,MCV [Entitic mean volume] in Red Blood Cells by Automated count,3023599,3023599,MCV [Entitic volume] by Automated count,Measurement,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,788-0,Erythrocyte [DistWidth] in Blood by Automated count,3019897,3019897,Erythrocyte distribution width [Ratio] by Automated count,Measurement,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,789-8,Erythrocytes [#/volume] in Blood by Automated count,3020416,3020416,Erythrocytes [#/volume] in Blood by Automated count,Measurement,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,82589-3,Highest level of education,42528763,42528763,Highest level of education,Observation,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,82667-7,Total score [DAST-10],42529243,42529243,Total score [DAST-10],Observation,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,8289-1,Head Occipital-frontal circumference Percentile,3035763,3035763,Head Occipital-frontal circumference Percentile,Measurement,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,8302-2,Body Height,3036277,3036277,Body height,Measurement,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,8310-5,Body temperature,3020891,3020891,Body temperature,Measurement,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,8331-1,Oral temperature,3006322,3006322,Oral temperature,Measurement,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,8462-4,Diastolic Blood Pressure,3012888,3012888,Diastolic blood pressure,Measurement,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,8480-6,Systolic Blood Pressure,3004249,3004249,Systolic blood pressure,Measurement,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,85354-9,Blood pressure panel with all children optional,36203185,36203185,Blood pressure panel with all children optional,Measurement,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,8867-4,Heart rate,3027018,3027018,Heart rate,Measurement,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,89204-2,Patient Health Questionnaire-9: Modified for Teens total score [Reported.PHQ.Teen],36305244,36305244,Patient Health Questionnaire-9: Modified for Teens total score [Reported.PHQ.Teen],Observation,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,91145-3,What number best describes how pain has interfered with your enjoyment of life during the past week,1175723,1175723,What number best describes how pain has interfered with your enjoyment of life during the past week,Observation,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,91146-1,What number best describes how pain has interfered with your general activity during the past week,1175797,1175797,What number best describes how pain has interfered with your general activity during the past week,Observation,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,91148-7,"Pain intensity, Enjoyment of life, General activity scale [PEG]",1176345,1176345,"Pain intensity, Enjoyment of life, General activity scale [PEG]",Observation,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,9279-1,Respiratory rate,3024171,3024171,Respiratory rate,Measurement,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,93025-5,"Protocol for Responding to and Assessing Patients' Assets, Risks, and Experiences [PRAPARE]",37021305,37021305,"Protocol for Responding to and Assessing Patients' Assets, Risks, and Experiences [PRAPARE]",Observation,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,93026-3,Do you feel physically and emotionally safe where you currently live [PRAPARE],37020108,37020108,Do you feel physically and emotionally safe where you currently live [PRAPARE],Observation,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,93027-1,Are you a refugee,37020580,37020580,Are you a refugee,Observation,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,93028-9,"Have you spent more than 2 nights in a row in a jail, prison, detention center, or juvenile correctional facility in pas",37021367,37021367,"Have you spent more than 2 nights in a row in a jail, prison, detention center, or juvenile correctional facility in past 1 year [PRAPARE]",Observation,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,93029-7,How often do you see or talk to people that you care about and feel close to [PRAPARE],37020032,37020032,How often do you see or talk to people that you care about and feel close to [PRAPARE],Observation,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,93030-5,"Has lack of transportation kept you from medical appointments, meetings, work, or from getting things needed for daily l",37020730,37020730,"Has lack of transportation kept you from medical appointments, meetings, work, or from getting things needed for daily living",Observation,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,93031-3,Have you or any family members you live with been unable to get any of the following when it was really needed in past 1,37020774,37020774,Have you or any family members you live with been unable to get any of the following when it was really needed in past 1 year [PRAPARE],Observation,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,93033-9,Are you worried about losing your housing [PRAPARE],37020172,37020172,Are you worried about losing your housing [PRAPARE],Observation,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,93034-7,Discharged from the U.S. Armed Forces,37021580,37021580,Discharged from the U.S. Armed Forces,Observation,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,93035-4,Has season or migrant farm work been your or your family's main source of income at any point in past 2 years [PRAPARE],37020846,37020846,Has season or migrant farm work been your or your family's main source of income at any point in past 2 years [PRAPARE],Observation,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,93038-8,Stress level,37020116,37020116,Stress level,Observation,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,9843-4,Head Occipital-frontal circumference,3000053,3000053,Head Occipital-frontal circumference,Measurement,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,LA13863-8,A little bit,45881667,45881667,A little bit,Meas Value,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,LA13902-4,Quite a bit,45884456,45884456,Quite a bit,Meas Value,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,LA13909-9,Somewhat,45876385,45876385,Somewhat,Meas Value,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,LA17956-6,Unemployed,45877709,45877709,Unemployed,Meas Value,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,LA27722-0,Less than once a week,36210209,36210209,Less than once a week,Meas Value,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,LA30122-8,I choose not to answer this question,37079361,37079361,I choose not to answer this question,Meas Value,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,LA30127-7,Child care,37079193,37079193,Child care,Meas Value,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,LA30128-5,"Medicine or Any Health Care (Medical, Dental, Mental Health, Vision)",37079467,37079467,"Medicine or Any Health Care (Medical, Dental, Mental Health, Vision)",Meas Value,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,LA30129-3,Phone,37079461,37079461,Phone,Meas Value,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,LA30130-1,1 or 2 times a week,37079316,37079316,1 or 2 times a week,Meas Value,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,LA30131-9,3 to 5 times a week,37079275,37079275,3 to 5 times a week,Meas Value,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,LA30132-7,5 or more times a week,37079490,37079490,5 or more times a week,Meas Value,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,LA30136-8,Full-time work,37079092,37079092,Full-time work,Meas Value,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,LA30137-6,"Otherwise unemployed but not seeking work (ex: student, retired, disabled, unpaid primary care giver)",37079231,37079231,"Otherwise unemployed but not seeking work (ex: student, retired, disabled, unpaid primary care giver)",Meas Value,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,LA30138-4,Part-time or temporary work,37079331,37079331,Part-time or temporary work,Meas Value,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,LA30189-7,I have housing,37079501,37079501,I have housing,Meas Value,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,LA30191-3,Less than high school degree,37079293,37079293,Less than high school degree,Meas Value,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,LA30193-9,More than high school,37079441,37079441,More than high school,Meas Value,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,LA32-8,No,45878245,45878245,No,Meas Value,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,LA33-6,Yes,45877994,45877994,Yes,Meas Value,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,LA43-5,English,45882691,45882691,English,Meas Value,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,LA4457-3,White,45877987,45877987,White,Meas Value,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,LA6350-8,Private insurance,45877444,45877444,Private insurance,Meas Value,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://loinc.org,LA6568-5,Not at all,45883172,45883172,Not at all,Meas Value,LOINC,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,103697008,Patient referral for dental care (procedure),4304200,4304200,Patient referral for dental care,Observation,SNOMED,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,10509002,Acute bronchitis (disorder),260139,260139,Acute bronchitis,Condition,SNOMED,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,109570002,Primary dental caries (disorder),40274283,40274283,Primary dental caries,Condition,SNOMED,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,111088007,Latex (substance),4008070,0,,,SNOMED,,source_only,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,1121000119107,Chronic neck pain (finding),43530622,43530622,Chronic neck pain,Condition,SNOMED,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,124171000119105,Chronic intractable migraine without aura (disorder),43530652,43530652,Chronic intractable migraine without aura,Condition,SNOMED,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,1256042007,Restoration of tooth with coverage of all cusps using dental filling material (procedure),37154051,37154051,Restoration of tooth with full cuspal coverage using dental filling material,Procedure,SNOMED,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,1259293006,Application of composite dental filling material to dentin of tooth following fracture of tooth (procedure),37158454,37158454,Application of composite dental filling material to dentin of tooth following fracture of tooth,Procedure,SNOMED,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,1260009003,Removal of supragingival plaque and calculus from all teeth using dental instrument (procedure),37166719,37166719,Removal of supragingival plaque and calculus from all teeth using dental instrument,Procedure,SNOMED,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,1260010008,Removal of subgingival plaque and calculus from all teeth using dental instrument (procedure),37166720,37166720,Removal of subgingival plaque and calculus from all teeth using dental instrument,Procedure,SNOMED,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,160903007,Full-time employment (finding),4053118,4053118,Full-time employment,Observation,SNOMED,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,160904001,Part-time employment (finding),4059634,4059634,Part-time employment,Observation,SNOMED,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,160968000,Risk activity involvement (finding),4059650,4059650,Risk activity involvement,Observation,SNOMED,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,161744009,Past pregnancy history of miscarriage (situation),4060188,0,,,SNOMED,,source_only,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,162673000,General examination of patient (procedure),4036803,4036803,General examination of patient,Procedure,SNOMED,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,171207006,Depression screening (procedure),4064377,4064377,Depression screening,Measurement,SNOMED,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,185345009,Encounter for symptom (procedure),4088569,4088569,Encounter for symptom,Observation,SNOMED,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,185347001,Encounter for problem (procedure),4085798,4085798,Encounter for problem,Observation,SNOMED,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,185349003,Encounter for check up (procedure),4085799,4085799,Encounter for check up,Observation,SNOMED,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,18718003,Gingival disease (disorder),4090111,4090111,Gingival disease,Condition,SNOMED,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,195662009,Acute viral pharyngitis (disorder),4112343,4112343,Acute viral pharyngitis,Condition,SNOMED,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,224295006,Only received primary school education (finding),4072733,4072733,Only received primary school education,Observation,SNOMED,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,224299000,Received higher education (finding),4076230,4076230,Received higher education,Observation,SNOMED,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,225362009,Dental care (regime/therapy),4024741,4024741,Dental care,Observation,SNOMED,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,23426006,Measurement of respiratory function (procedure),4052083,0,,,SNOMED,,source_only,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,237602007,Metabolic syndrome X (disorder),436940,436940,Metabolic syndrome X,Condition,SNOMED,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,241046008,Dental plain X-ray bitewing (procedure),4081551,4081551,Dental plain X-ray bitewing,Procedure,SNOMED,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,243085009,Oral health education (procedure),4054945,4054945,Oral health education,Observation,SNOMED,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,260385009,Negative (qualifier value),9189,9189,Negative,Meas Value,SNOMED,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,266919005,Never smoked tobacco (finding),4144272,0,,,SNOMED,,source_only,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,271737000,Anemia (disorder),439777,439777,Anemia,Condition,SNOMED,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,274788003,Examination of gingivae (procedure),4168232,4168232,Examination of gingivae,Procedure,SNOMED,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,278588009,Fractured dental filling (finding),4133342,4133342,Fractured dental filling,Observation,SNOMED,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,278598003,Leaking dental filling (finding),4132595,4132595,Leaking dental filling,Observation,SNOMED,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,302870006,Hypertriglyceridemia (disorder),4120314,4120314,Hypertriglyceridemia,Condition,SNOMED,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,308646001,Death Certification,4205519,4205519,Death certification,Observation,SNOMED,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,314529007,Medication review due (situation),4199788,4199788,Medication review due,Observation,SNOMED,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,33879002,Administration of vaccine to produce active immunity (procedure),4144375,4144375,Active immunization,Procedure,SNOMED,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,34043003,Dental consultation and report (procedure),4145111,4145111,Dental consultation and report,Observation,SNOMED,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,361055000,Misuses drugs (finding),4234597,4234597,Misuses drugs,Condition,SNOMED,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,3802001,Dental application of desensitizing medicament (procedure),4244217,4244217,Dental application of desensitizing medicament,Procedure,SNOMED,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,386516004,Anticipatory guidance (procedure),4298386,4298386,Anticipatory guidance,Observation,SNOMED,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,390906007,Follow-up encounter (procedure),4307024,4307024,Follow-up encounter,Observation,SNOMED,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,401303003,Acute ST segment elevation myocardial infarction (disorder),4296653,4296653,Acute ST segment elevation myocardial infarction,Condition,SNOMED,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,410620009,Well child visit (procedure),4132649,4132649,Well child visit,Procedure,SNOMED,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,422650009,Social isolation (finding),4309238,4309238,Social isolation,Observation,SNOMED,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,423315002,Limited social contact (finding),4172829,4172829,Limited social contact,Observation,SNOMED,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,424619006,Prenatal visit (regime/therapy),4313474,4313474,Prenatal visit,Observation,SNOMED,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,428211000124100,Assessment of substance use (procedure),762506,762506,Assessment of substance use,Procedure,SNOMED,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,430193006,Medication reconciliation (procedure),4326177,4326177,Medication reconciliation,Procedure,SNOMED,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,44054006,Diabetes mellitus type 2 (disorder),201826,201826,Type 2 diabetes mellitus,Condition,SNOMED,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,442571000124108,Tree nut (substance),36713251,36713251,Tree nut,Observation,SNOMED,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,444814009,Viral sinusitis (disorder),40481087,40481087,Viral sinusitis,Condition,SNOMED,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,456191000124101,Postoperative care for dental procedure (regime/therapy),764526,764526,Postoperative care for dental procedure,Observation,SNOMED,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,50849002,Emergency room admission (procedure),4176269,4176269,Emergency room admission,Observation,SNOMED,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,609328004,Allergic disposition (finding),43530807,43530807,Allergic disposition,Observation,SNOMED,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,64544008,"Gingivectomy or gingivoplasty, per tooth (procedure)",4273242,0,,,SNOMED,,source_only,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,65363002,Otitis media (disorder),372328,372328,Otitis media,Condition,SNOMED,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,66383009,Gingivitis (disorder),4281516,4281516,Gingivitis,Condition,SNOMED,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,68071007,Dental fluoride treatment (procedure),4239043,4239043,Dental fluoride treatment,Procedure,SNOMED,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,710824005,Assessment of health and social care needs (procedure),46272459,46272459,Assessment of health and social care needs,Procedure,SNOMED,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,710841007,Assessment of anxiety (procedure),46272472,46272472,Assessment of anxiety,Procedure,SNOMED,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,713106006,Screening for drug abuse (procedure),37016945,37016945,Screening for drug abuse,Measurement,SNOMED,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,714628002,Prediabetes (finding),37018196,37018196,Prediabetes,Condition,SNOMED,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,715252007,Depression screening using Patient Health Questionnaire Nine Item score (procedure),37395717,0,,,SNOMED,,source_only,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,73438004,Unemployed (finding),4251171,4251171,Unemployed,Observation,SNOMED,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,73595000,Stress (finding),4251306,4251306,Stress,Observation,SNOMED,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,73761001,Colonoscopy (procedure),4249893,4249893,Colonoscopy,Procedure,SNOMED,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,741062008,Not in labor force (finding),42538208,42538208,Not in labor force,Observation,SNOMED,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,763302001,Assessment using Alcohol Use Disorders Identification Test - Consumption (procedure),35621997,0,,,SNOMED,,source_only,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,81733005,Dental surgical procedure (procedure),4305000,4305000,Dental surgical procedure,Procedure,SNOMED,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,82423001,Chronic pain (finding),436096,436096,Chronic pain,Condition,SNOMED,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,866148006,Screening for domestic abuse (procedure),3661628,3661628,Screening for domestic abuse,Measurement,SNOMED,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,868187001,"Assessment using Car, Relax, Alone, Forget, Friends, Trouble Screening Test (procedure)",3655745,0,,,SNOMED,,source_only,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://snomed.info/sct,91302008,Sepsis (disorder),132797,132797,Sepsis,Condition,SNOMED,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://unitsofmeasure.org,%,%,8554,8554,percent,Unit,UCUM,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://unitsofmeasure.org,/a,/a,0,0,,,UCUM,,unresolved,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://unitsofmeasure.org,/min,/min,8541,8541,per minute,Unit,UCUM,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://unitsofmeasure.org,10*3/uL,10*3/uL,8848,8848,thousand per microliter,Unit,UCUM,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://unitsofmeasure.org,10*6/uL,10*6/uL,8815,8815,million per microliter,Unit,UCUM,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://unitsofmeasure.org,Cel,Cel,586323,586323,degree Celsius,Unit,UCUM,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://unitsofmeasure.org,cm,cm,8582,8582,centimeter,Unit,UCUM,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://unitsofmeasure.org,fL,fL,8583,8583,femtoliter,Unit,UCUM,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://unitsofmeasure.org,g/dL,g/dL,8713,8713,gram per deciliter,Unit,UCUM,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://unitsofmeasure.org,kg,kg,9529,9529,kilogram,Unit,UCUM,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://unitsofmeasure.org,kg/m2,kg/m2,9531,9531,kilogram per square meter,Unit,UCUM,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://unitsofmeasure.org,mL/min/{1.73_m2},mL/min/{1.73_m2},0,0,,,UCUM,,unresolved,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://unitsofmeasure.org,mg/dL,mg/dL,8840,8840,milligram per deciliter,Unit,UCUM,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://unitsofmeasure.org,mg/g,mg/g,8723,8723,milligram per gram,Unit,UCUM,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://unitsofmeasure.org,mm[Hg],mm[Hg],8876,8876,millimeter mercury column,Unit,UCUM,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://unitsofmeasure.org,mmol/L,mmol/L,8753,8753,millimole per liter,Unit,UCUM,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://unitsofmeasure.org,pg,pg,8564,8564,picogram,Unit,UCUM,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://unitsofmeasure.org,{#},{#},0,0,,,UCUM,,unresolved,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://unitsofmeasure.org,{score},{score},0,0,,,UCUM,,unresolved,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://www.nlm.nih.gov/research/umls/rxnorm,1043400,Acetaminophen 21.7 MG/ML / Dextromethorphan Hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution,40229134,40229134,acetaminophen 21.7 MG/ML / dextromethorphan hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution,Drug,RxNorm,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://www.nlm.nih.gov/research/umls/rxnorm,1049625,Acetaminophen 325 MG / Oxycodone Hydrochloride 10 MG Oral Tablet [Percocet],40231918,40231918,acetaminophen 325 MG / oxycodone hydrochloride 10 MG Oral Tablet [Percocet],Drug,RxNorm,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://www.nlm.nih.gov/research/umls/rxnorm,1535362,sodium fluoride 0.0272 MG/MG Oral Gel,44818179,44818179,sodium fluoride 0.0272 MG/MG Oral Gel,Drug,RxNorm,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://www.nlm.nih.gov/research/umls/rxnorm,1870230,NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector,1594382,1594382,NDA020800 0.3 ML epinephrine 1 MG/ML Auto-Injector,Drug,RxNorm,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://www.nlm.nih.gov/research/umls/rxnorm,2001499,Vitamin B12 5 MG/ML Injectable Solution,964261,964261,vitamin B12 5 MG/ML Injectable Solution,Drug,RxNorm,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://www.nlm.nih.gov/research/umls/rxnorm,206905,Ibuprofen 400 MG Oral Tablet [Ibu],19033893,19033893,ibuprofen 400 MG Oral Tablet [Ibu],Drug,RxNorm,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://www.nlm.nih.gov/research/umls/rxnorm,29046,Lisinopril,1308216,1308216,lisinopril,Drug,RxNorm,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://www.nlm.nih.gov/research/umls/rxnorm,308192,Amoxicillin 500 MG Oral Tablet,19073188,19073188,amoxicillin 500 MG Oral Tablet,Drug,RxNorm,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://www.nlm.nih.gov/research/umls/rxnorm,313820,Acetaminophen 160 MG Chewable Tablet,19079924,19079924,acetaminophen 160 MG Chewable Tablet,Drug,RxNorm,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI
+http://www.nlm.nih.gov/research/umls/rxnorm,665078,Loratadine 5 MG Chewable Tablet,19125062,19125062,loratadine 5 MG Chewable Tablet,Drug,RxNorm,S,standard,2026-08-12,https://atlas-demo.ohdsi.org/WebAPI

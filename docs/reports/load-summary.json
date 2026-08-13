@@ -1,0 +1,224 @@
+{
+  "row_counts": {
+    "location": 278,
+    "care_site": 278,
+    "provider": 278,
+    "person": 8,
+    "observation_period": 7,
+    "visit_occurrence": 77,
+    "condition_occurrence": 71,
+    "procedure_occurrence": 159,
+    "drug_exposure": 91,
+    "measurement": 512,
+    "observation": 348,
+    "death": 1,
+    "cdm_source": 1
+  },
+  "total_omop_rows": 2109,
+  "source_resource_counts": {
+    "AllergyIntolerance": 4,
+    "CarePlan": 4,
+    "CareTeam": 4,
+    "Claim": 99,
+    "Condition": 71,
+    "Device": 4,
+    "DiagnosticReport": 134,
+    "DocumentReference": 75,
+    "Encounter": 77,
+    "ExplanationOfBenefit": 99,
+    "ImagingStudy": 2,
+    "Immunization": 67,
+    "Location": 279,
+    "Medication": 4,
+    "MedicationAdministration": 4,
+    "MedicationRequest": 24,
+    "Observation": 562,
+    "Organization": 278,
+    "Patient": 8,
+    "Practitioner": 278,
+    "PractitionerRole": 278,
+    "Procedure": 159,
+    "Provenance": 5,
+    "SupplyDelivery": 33
+  },
+  "total_source_resources": 2552,
+  "rows_by_source_resource_type": {
+    "Condition": 71,
+    "Encounter": 77,
+    "Immunization": 67,
+    "MedicationRequest": 24,
+    "Observation": 860,
+    "Organization": 278,
+    "Patient": 9,
+    "Practitioner": 278,
+    "Procedure": 159
+  },
+  "skipped_resource_counts": {
+    "AllergyIntolerance": 4,
+    "CarePlan": 4,
+    "CareTeam": 4,
+    "Claim": 99,
+    "Device": 4,
+    "DiagnosticReport": 134,
+    "DocumentReference": 75,
+    "ExplanationOfBenefit": 99,
+    "ImagingStudy": 2,
+    "Location": 279,
+    "PractitionerRole": 278,
+    "Provenance": 5,
+    "SupplyDelivery": 33
+  },
+  "terminology_coverage": {
+    "overall_mapped_share": 0.9,
+    "by_domain": {
+      "Condition": {
+        "mapped": 70,
+        "unmapped": 2,
+        "mapped_share": 0.9722
+      },
+      "Drug": {
+        "mapped": 87,
+        "unmapped": 8,
+        "mapped_share": 0.9158
+      },
+      "Meas Value": {
+        "mapped": 236,
+        "unmapped": 68,
+        "mapped_share": 0.7763
+      },
+      "Measurement/Observation": {
+        "mapped": 856,
+        "unmapped": 8,
+        "mapped_share": 0.9907
+      },
+      "Procedure": {
+        "mapped": 150,
+        "unmapped": 18,
+        "mapped_share": 0.8929
+      },
+      "Unit": {
+        "mapped": 473,
+        "unmapped": 104,
+        "mapped_share": 0.8198
+      }
+    },
+    "by_vocabulary": {
+      "CVX": {
+        "mapped": 63,
+        "unmapped": 8,
+        "mapped_share": 0.8873
+      },
+      "LOINC": {
+        "mapped": 1090,
+        "unmapped": 8,
+        "mapped_share": 0.9927
+      },
+      "RxNorm": {
+        "mapped": 24,
+        "unmapped": 0,
+        "mapped_share": 1.0
+      },
+      "SNOMED": {
+        "mapped": 222,
+        "unmapped": 88,
+        "mapped_share": 0.7161
+      },
+      "UCUM": {
+        "mapped": 473,
+        "unmapped": 104,
+        "mapped_share": 0.8198
+      }
+    },
+    "distinct_unmapped_codes": 14,
+    "top_unmapped_codes": [
+      {
+        "vocabulary": "UCUM",
+        "code": "{score}",
+        "occurrences": 74
+      },
+      {
+        "vocabulary": "SNOMED",
+        "code": "266919005",
+        "occurrences": 68
+      },
+      {
+        "vocabulary": "UCUM",
+        "code": "/a",
+        "occurrences": 13
+      },
+      {
+        "vocabulary": "UCUM",
+        "code": "{#}",
+        "occurrences": 13
+      },
+      {
+        "vocabulary": "LOINC",
+        "code": "33914-3",
+        "occurrences": 8
+      },
+      {
+        "vocabulary": "SNOMED",
+        "code": "715252007",
+        "occurrences": 6
+      },
+      {
+        "vocabulary": "CVX",
+        "code": "207",
+        "occurrences": 4
+      },
+      {
+        "vocabulary": "CVX",
+        "code": "208",
+        "occurrences": 4
+      },
+      {
+        "vocabulary": "SNOMED",
+        "code": "763302001",
+        "occurrences": 4
+      },
+      {
+        "vocabulary": "SNOMED",
+        "code": "868187001",
+        "occurrences": 4
+      },
+      {
+        "vocabulary": "UCUM",
+        "code": "mL/min/{1.73_m2}",
+        "occurrences": 4
+      },
+      {
+        "vocabulary": "SNOMED",
+        "code": "161744009",
+        "occurrences": 2
+      },
+      {
+        "vocabulary": "SNOMED",
+        "code": "23426006",
+        "occurrences": 2
+      },
+      {
+        "vocabulary": "SNOMED",
+        "code": "64544008",
+        "occurrences": 2
+      }
+    ]
+  },
+  "unresolved_references": {},
+  "observation_routing": {
+    "concept_domain": 856,
+    "fhir_category": 4
+  },
+  "concept_map_size": 217,
+  "concept_map_provenance": {
+    "generated_by": "scripts/build_concept_map.py",
+    "generated_on": "2026-08-12",
+    "vocabulary_source": "OHDSI WebAPI 2.14.0",
+    "vocabulary_service": "https://atlas-demo.ohdsi.org/WebAPI",
+    "source_corpus": "data/fhir",
+    "distinct_codings": "217",
+    "resolution_counts": "{\"source_only\": 11, \"standard\": 202, \"unresolved\": 4}",
+    "licence_note": "Derived from the OHDSI standardised vocabularies via a public WebAPI instance. Only the codes present in this repository's sample data are included. The vocabulary itself is licence-gated and is not redistributed here."
+  },
+  "surrogate_keys_minted": 2107,
+  "warnings": []
+}

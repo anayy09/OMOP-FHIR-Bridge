@@ -1,5 +1,11 @@
 # omop-fhir-bridge
 
+[![CI](https://github.com/anayy09/omop-fhir-bridge/actions/workflows/ci.yml/badge.svg)](https://github.com/anayy09/omop-fhir-bridge/actions/workflows/ci.yml)
+[![Python 3.11+](https://img.shields.io/badge/python-3.11%20%7C%203.12%20%7C%203.13-blue)](pyproject.toml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![OMOP CDM v5.4](https://img.shields.io/badge/OMOP%20CDM-v5.4-0b7285)](vendor/README.md)
+[![FHIR R4](https://img.shields.io/badge/FHIR-R4-c92a2a)](docs/reports/fhir-server-validation.md)
+
 Bidirectional **FHIR R4 ⇄ OMOP CDM v5.4** mapping, with the conformance checks generated from
 OHDSI's own DDL and the round-trip losses measured rather than described.
 
